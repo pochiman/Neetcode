@@ -11,9 +11,9 @@
 
 ### 02 Stack
 
-|  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
-|-----|----------------|---------------|----------------|-------------
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
+| Problem | Solutions | Difficulty | Tags     
+|---------|-----------|------------|------
+| [0001 - Two Sum](https://leetcode.com/problems/two-sum/) | [✔️](python%2F0001-two-sum.py) | Easy | Array, Hash Table
 
 
 ### 03 Two Pointers
