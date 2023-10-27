@@ -1,19 +1,19 @@
 # [LeetCode](https://leetcode.com/problemset/algorithms/)
-> This repo hosts algorithm solutions written in Python.
+> This repo hosts algorithmic solutions written in Python.
 
 
-### 01 Arrays & Hashing
+#### 01 Arrays & Hashing
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
-<sub>[0001 - Two Sum](https://leetcode.com/problems/two-sum/)</sub> | <sub><div align='center'>[✔️](python%2F0001-two-sum.py)</div></sub> | <sub>Easy</sub> | <sub>Array, Hash Table</sub>
+<sub>[0001 - Two Sum](https://leetcode.com/problems/two-sum/)</sub> | <sub><div align='center'>[✔️](python%2F0001-two-sum.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Array, Hash Table</sub>
 
 
-### 02 Stack
+#### 02 Stack
 
 | Problem | Solutions | Difficulty | Tags     
 |---------|-----------|------------|------
-| [0001 - Two Sum](https://leetcode.com/problems/two-sum/) | [✔️](python%2F0001-two-sum.py) | Easy | Array, Hash Table
+| [0001 - Two Sum](https://leetcode.com/problems/two-sum/) | <div align='center'>[✔️](python%2F0001-two-sum.py)</div> | <div align='center'>Easy</div> | Array, Hash Table
 
 
 ### 03 Two Pointers
