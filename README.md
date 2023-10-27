@@ -1,6 +1,6 @@
 # [LeetCode](https://leetcode.com/problemset/algorithms/) 
 
-> ["Solutions written in JavaScript."]
+> ["Solutions written in Python."]
 
 ## Algorithms
 
