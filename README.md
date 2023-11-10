@@ -9,28 +9,28 @@
 <sub>[0001 - Two Sum](https://leetcode.com/problems/two-sum/)</sub> | <sub><div align='center'>[✔️](python%2F0001-two-sum.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Array, Hash Table</sub>
 
 
-#### 02 Stack
+#### 02 Two Pointers
 
 | Problem | Solutions | Difficulty | Tags     
 |---------|-----------|------------|------
 | [0001 - Two Sum](https://leetcode.com/problems/two-sum/) | <div align='center'>[✔️](python%2F0001-two-sum.py)</div> | <div align='center'>Easy</div> | Array, Hash Table
 
 
-### 03 Two Pointers
+### 03 Sliding Window
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 04 Binary Search
+### 04 Stack
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 05 Sliding Window
+### 05 Binary Search
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
@@ -58,14 +58,14 @@
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 09 Backtracking
+### 09 Heap / Priority Queue
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 10 Heap / Priority Queue
+### 10 Backtracking
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
@@ -79,49 +79,50 @@
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 12 1-D Dynamic Programming
+### 12 Advanced Graphs
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 13 Intervals
+### 13 1-D Dynamic Programming
+Intervals
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 14 Greedy
+### 14 2-D Dynamic Programming
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 15 Advanced Graphs
+### 15 Greedy
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 16 2-D Dynamic Programming
+### 16 Intervals
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 17 Bit Manipulation
+### 17 Math & Geometry
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 18 Math & Geometry
+### 18 Bit Manipulation
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
