@@ -6,9 +6,7 @@
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
-
 <sub>[0001 - Two Sum](https://leetcode.com/problems/two-sum/)</sub> | <sub><div align='center'>[✔️](python%2F0001-two-sum.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Array, Hash Table</sub>
-
 <sub>[0217 - Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)</sub> | <sub><div align='center'>[✔️](python%2F0217-two-sum.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Array, Hash Table, Sorting</sub>
 
 
