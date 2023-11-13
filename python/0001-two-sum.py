@@ -32,7 +32,7 @@ Output: [0,1]
 
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
-        prevMap = {}  # val : index
+        prevMap = {}  # val -> index
 
         for i, n in enumerate(nums):
             diff = target - n
