@@ -11,6 +11,7 @@
 <sub>[0242 - Valid Anagram](https://leetcode.com/problems/valid-anagram/)</sub> | <sub><div align='center'>[✔️](python%2F0242-valid-anagram.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Hash Table, String, Sorting</sub>
 <sub>[0049 - Group Anagrams](https://leetcode.com/problems/group-anagrams/)</sub> | <sub><div align='center'>[✔️](python%2F0049-group-anagrams.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Hash Table, String, Sorting</sub>
 <sub>[0036 - Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)</sub> | <sub><div align='center'>[✔️](python%2F0036-valid-sudoku.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Hash Table, Matrix</sub>
+<sub>[0128 - Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)</sub> | <sub><div align='center'>[✔️](python%2F0128-longest-consecutive-sequence.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Hash Table, Union Find</sub>
 
 
 
