@@ -13,6 +13,7 @@
 <sub>[0036 - Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)</sub> | <sub><div align='center'>[✔️](python%2F0036-valid-sudoku.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Hash Table, Matrix</sub>
 <sub>[0128 - Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)</sub> | <sub><div align='center'>[✔️](python%2F0128-longest-consecutive-sequence.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Hash Table, Union Find</sub>
 <sub>[0238 - Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)</sub> | <sub><div align='center'>[✔️](python%2F0238-product-of-array-except-self.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Prefix Sum</sub>
+<sub>[0347 - Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)</sub> | <sub><div align='center'>[✔️](python%2F0347-top-k-frequent-elements.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Hash Table, Divide and Conquer, Sorting, 4+</sub>
 
 
 
