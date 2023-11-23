@@ -2,6 +2,7 @@
 > This repo hosts algorithmic solutions written in Python.
 
 
+
 #### 01 Arrays & Hashing
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
@@ -19,9 +20,9 @@
 
 #### 02 Two Pointers
 
-| Problem | Solutions | Difficulty | Tags     
-|---------|-----------|------------|------
-| [0001 - Two Sum](https://leetcode.com/problems/two-sum/) | <div align='center'>[✔️](python%2F0001-two-sum.py)</div> | <div align='center'>Easy</div> | Array, Hash Table
+<sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
+---- | ---- | ---- | ----
+<sub>[0125 - Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)</sub> | <sub><div align='center'>[✔️](python%2F0125-valid-palindrome.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Two Pointers, String</sub>
 
 
 ### 03 Sliding Window
