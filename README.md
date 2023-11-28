@@ -32,9 +32,10 @@
 
 ### 03 Sliding Window
 
-|  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
-|-----|----------------|---------------|----------------|-------------
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
+<sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
+---- | ---- | ---- | ----
+<sub>[0121 - Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)</sub> | <sub><div align='center'>[✔️](python%2F0121-best-time-to-buy-and-sell-stock.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Array, Dynamic Programming</sub>
+
 
 
 ### 04 Stack
