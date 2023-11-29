@@ -39,6 +39,8 @@
 <sub>[0424 - Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)</sub> | <sub><div align='center'>[✔️](python%2F0424-longest-repeating-character-replacement.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Hash Table, String, Sliding Window</sub>
 <sub>[0567 - Permutation in String](https://leetcode.com/problems/permutation-in-string/)</sub> | <sub><div align='center'>[✔️](python%2F0567-permutation-in-string.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Hash Table, Two Pointers, String, Sliding Window</sub>
 <sub>[0076 - Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)</sub> | <sub><div align='center'>[✔️](python%2F0076-minimum-window-substring.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Hash Table, String, Sliding Window</sub>
+<sub>[0239 - Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)</sub> | <sub><div align='center'>[✔️](python%2F0239-sliding-window-maximum.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Array, Queue, Sliding Window, Heap (Priority Queue), 1+</sub>
+<sub>[0020 - Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)</sub> | <sub><div align='center'>[✔️](python%2F0020-valid-parentheses.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>String, Stack</sub>
 
 
 
