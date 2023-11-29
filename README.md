@@ -37,6 +37,7 @@
 <sub>[0121 - Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)</sub> | <sub><div align='center'>[✔️](python%2F0121-best-time-to-buy-and-sell-stock.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Array, Dynamic Programming</sub>
 <sub>[0003 - Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)</sub> | <sub><div align='center'>[✔️](python%2F0003-longest-substring-without-repeating-characters.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Hash Table, String, Sliding Window</sub>
 <sub>[0424 - Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)</sub> | <sub><div align='center'>[✔️](python%2F0424-longest-repeating-character-replacement.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Hash Table, String, Sliding Window</sub>
+<sub>[0567 - Permutation in String](https://leetcode.com/problems/permutation-in-string/)</sub> | <sub><div align='center'>[✔️](python%2F0567-permutation-in-string.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Hash Table, Two Pointers, String, Sliding Window</sub>
 
 
 
