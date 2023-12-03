@@ -40,29 +40,45 @@
 <sub>[0567 - Permutation in String](https://leetcode.com/problems/permutation-in-string/)</sub> | <sub><div align='center'>[✔️](python%2F0567-permutation-in-string.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Hash Table, Two Pointers, String, Sliding Window</sub>
 <sub>[0076 - Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)</sub> | <sub><div align='center'>[✔️](python%2F0076-minimum-window-substring.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Hash Table, String, Sliding Window</sub>
 <sub>[0239 - Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)</sub> | <sub><div align='center'>[✔️](python%2F0239-sliding-window-maximum.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Array, Queue, Sliding Window, Heap (Priority Queue), 1+</sub>
-<sub>[0020 - Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)</sub> | <sub><div align='center'>[✔️](python%2F0020-valid-parentheses.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>String, Stack</sub>
 
 
 
 ### 04 Stack
 
-|  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
-|-----|----------------|---------------|----------------|-------------
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
+<sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
+---- | ---- | ---- | ----
+<sub>[0020 - Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)</sub> | <sub><div align='center'>[✔️](python%2F0020-valid-parentheses.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>String, Stack</sub>
+<sub>[0155 - Min Stack](https://leetcode.com/problems/min-stack/)</sub> | <sub><div align='center'>[✔️](python%2F0155-min-stack.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Stack, Design</sub>
+<sub>[0150 - Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)</sub> | <sub><div align='center'>[✔️](python%2F0150-evaluate-reverse-polish-notation.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Math, Stack</sub>
+<sub>[0022 - Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)</sub> | <sub><div align='center'>[✔️](python%2F0022-generate-parentheses.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>String, Dynamic Programming, Backtracking</sub>
+<sub>[0739 - Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)</sub> | <sub><div align='center'>[✔️](python%2F0739-daily-temperatures.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Stack, Monotonic Stack</sub>
+<sub>[0853 - Car Fleet](https://leetcode.com/problems/car-fleet/)</sub> | <sub><div align='center'>[✔️](python%2F0853-car-fleet.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Stack, Sorting, Monotonic Stack</sub>
+<sub>[0084 - Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)</sub> | <sub><div align='center'>[✔️](python%2F0084-largest-rectangle-in-histogram.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Array, Stack, Monotonic Stack</sub>
+
 
 
 ### 05 Binary Search
 
-|  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
-|-----|----------------|---------------|----------------|-------------
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
+<sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
+---- | ---- | ---- | ----
+<sub>[0704 - Binary Search](https://leetcode.com/problems/binary-search/)</sub> | <sub><div align='center'>[✔️](python%2F0704-binary-search.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Array, Binary Search</sub>
+<sub>[0074 - Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)</sub> | <sub><div align='center'>[✔️](python%2F0074-search-a-2d-matrix.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Binary Search, Matrix</sub>
+<sub>[0875 - Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)</sub> | <sub><div align='center'>[✔️](python%2F0875-koko-eating-bananas.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Binary Search</sub>
+<sub>[0153 - Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)</sub> | <sub><div align='center'>[✔️](python%2F0153-find-minimum-in-rotated-sorted-array.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Binary Search</sub>
+<sub>[0033 - Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)</sub> | <sub><div align='center'>[✔️](python%2F0033-search-in-rotated-sorted-array.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Binary Search</sub>
+<sub>[0981 - Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)</sub> | <sub><div align='center'>[✔️](python%2F0981-time-based-key-value-store.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Hash Table, String, Binary Search, Design</sub>
+<sub>[0004 - Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)</sub> | <sub><div align='center'>[✔️](python%2F0004-median-of-two-sorted-arrays.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Array, Binary Search, Divide and Conquer</sub>
+
 
 
 ### 06 Linked List
 
-|  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
-|-----|----------------|---------------|----------------|-------------
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
+<sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
+---- | ---- | ---- | ----
+<sub>[206 - Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)</sub> | <sub><div align='center'>[✔️](python%2F0206-reverse-linked-list.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Linked List, Recursion</sub>
+
+
+
 
 
 ### 07 Trees
