@@ -78,6 +78,7 @@
 <sub>[206 - Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)</sub> | <sub><div align='center'>[✔️](python%2F0206-reverse-linked-list.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Linked List, Recursion</sub>
 <sub>[21 - Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)</sub> | <sub><div align='center'>[✔️](python%2F0021-merge-two-sorted-lists.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Linked List, Recursion</sub>
 <sub>[143 - Reorder List](https://leetcode.com/problems/reorder-list/)</sub> | <sub><div align='center'>[✔️](python%2F0143-reorder-list.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Linked List, Two Pointers, Stack, Recursion</sub>
+<sub>[19 - Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)</sub> | <sub><div align='center'>[✔️](python%2F0019-remove-nth-node-from-end-of-list.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Linked List, Two Pointers</sub>
 
 
 
