@@ -83,6 +83,7 @@
 <sub>[2 - Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)</sub> | <sub><div align='center'>[✔️](python%2F0002-add-two-numbers.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Linked List, Math, Recursion</sub>
 <sub>[141 - Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)</sub> | <sub><div align='center'>[✔️](python%2F0141-linked-list-cycle.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Hash Table, Linked List, Two Pointers</sub>
 <sub>[287 - Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)</sub> | <sub><div align='center'>[✔️](python%2F0287-find-the-duplicate-number.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Two Pointers, Binary Search, Bit Manipulation</sub>
+<sub>[146 - LRU Cache](https://leetcode.com/problems/lru-cache/)</sub> | <sub><div align='center'>[✔️](python%2F0146-lru-cache.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Hash Table, Linked List, Design, Doubly-Linked List</sub>
 
 
 
