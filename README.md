@@ -85,6 +85,7 @@
 <sub>[287 - Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)</sub> | <sub><div align='center'>[✔️](python%2F0287-find-the-duplicate-number.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Two Pointers, Binary Search, Bit Manipulation</sub>
 <sub>[146 - LRU Cache](https://leetcode.com/problems/lru-cache/)</sub> | <sub><div align='center'>[✔️](python%2F0146-lru-cache.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Hash Table, Linked List, Design, Doubly-Linked List</sub>
 <sub>[23 - Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)</sub> | <sub><div align='center'>[✔️](python%2F0023-merge-k-sorted-lists.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort</sub>
+<sub>[25 - Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)</sub> | <sub><div align='center'>[✔️](python%2F0025-reverse-nodes-in-k-group.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Linked List, Recursion</sub>
 
 
 
