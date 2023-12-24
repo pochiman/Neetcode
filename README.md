@@ -89,14 +89,26 @@
 
 
 
-
-
-
 ### 07 Trees
 
-|  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
-|-----|----------------|---------------|----------------|-------------
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
+<sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
+---- | ---- | ---- | ----
+<sub>[226 - Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)</sub> | <sub><div align='center'>[✔️](python%2F0226-invert-binary-tree.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Tree, Depth-First Search, Breadth-First Search, Binary Tree</sub>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### 08 Tries
