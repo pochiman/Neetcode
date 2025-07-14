@@ -30,7 +30,7 @@
 
 
 
-### 03 Sliding Window
+#### 03 Sliding Window
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
@@ -43,7 +43,7 @@
 
 
 
-### 04 Stack
+#### 04 Stack
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
@@ -57,7 +57,7 @@
 
 
 
-### 05 Binary Search
+#### 05 Binary Search
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
@@ -71,7 +71,7 @@
 
 
 
-### 06 Linked List
+#### 06 Linked List
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
@@ -89,7 +89,7 @@
 
 
 
-### 07 Trees
+#### 07 Trees
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
@@ -97,92 +97,87 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### 08 Tries
+#### 08 Heap / Priority Queue
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 09 Heap / Priority Queue
+
+#### 09 Backtracking
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 10 Backtracking
+
+#### 10 Tries
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 11 Graphs
+
+#### 11 Graphs
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 12 Advanced Graphs
+
+#### 12 Advanced Graphs
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 13 1-D Dynamic Programming
-Intervals
+
+#### 13 1-D Dynamic Programming
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 14 2-D Dynamic Programming
+
+#### 14 2-D Dynamic Programming
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 15 Greedy
+
+#### 15 Greedy
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 16 Intervals
+
+#### 16 Intervals
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 17 Math & Geometry
+
+#### 17 Math & Geometry
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
 
 
-### 18 Bit Manipulation
+
+#### 18 Bit Manipulation
 
 |  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
 |-----|----------------|---------------|----------------|-------------
