@@ -20,7 +20,7 @@ Output: [1]
 """
 
 class Solution:
-    def topKFrequent(self, nums: list[int], k: int) -> list[int]:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]: # type: ignore
         count = {}
         freq = [[] for i in range(len(nums) + 1)]
 
