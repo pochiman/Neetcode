@@ -31,7 +31,7 @@ Output: [0,1]
 """ 
 
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]: # type: ignore
+    def twoSum(self, nums: list[int], target: int) -> list[int]: # type: ignore
         prevMap = {}  # val -> index
 
         for i, n in enumerate(nums):
