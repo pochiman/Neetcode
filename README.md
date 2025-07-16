@@ -49,7 +49,7 @@
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
 <sub>[0020 - Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)</sub> | <sub><div align='center'>[✔️](python/04_Stack/0020-valid-parentheses.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>String, Stack</sub>
-<sub>[0155 - Min Stack](https://leetcode.com/problems/min-stack/)</sub> | <sub><div align='center'>[✔️](python%2F0155-min-stack.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Stack, Design</sub>
+<sub>[0155 - Min Stack](https://leetcode.com/problems/min-stack/)</sub> | <sub><div align='center'>[✔️](python/04_Stack/0155-min-stack.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Stack, Design</sub>
 <sub>[0150 - Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)</sub> | <sub><div align='center'>[✔️](python%2F0150-evaluate-reverse-polish-notation.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Math, Stack</sub>
 <sub>[0022 - Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)</sub> | <sub><div align='center'>[✔️](python%2F0022-generate-parentheses.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>String, Dynamic Programming, Backtracking</sub>
 <sub>[0739 - Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)</sub> | <sub><div align='center'>[✔️](python%2F0739-daily-temperatures.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Stack, Monotonic Stack</sub>
