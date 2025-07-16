@@ -24,7 +24,7 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 """
 
 class Solution:
-    def findMedianSortedArrays(self, nums1: list[int], nums2: list[int]) -> float:
+    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float: # type: ignore
         A, B = nums1, nums2
         total = len(nums1) + len(nums2)
         half = total // 2
