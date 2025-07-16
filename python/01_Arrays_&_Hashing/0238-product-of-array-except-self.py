@@ -24,7 +24,7 @@ Output: [0,0,9,0,0]
 """
 
 class Solution:
-    def productExceptSelf(self, nums: list[int]) -> list[int]:
+    def productExceptSelf(self, nums: List[int]) -> List[int]: # type: ignore
         res = [1] * (len(nums))
 
         prefix = 1
