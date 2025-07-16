@@ -23,7 +23,7 @@ Output: 9
 """
 
 class Solution:
-    def trap(self, height: list[int]) -> int:
+    def trap(self, height: List[int]) -> int: # type: ignore
 
         if not height: return 0
 
@@ -40,5 +40,4 @@ class Solution:
                 r -= 1
                 rightMax = max(rightMax, height[r])
                 res += rightMax - height[r]
-
         return res
