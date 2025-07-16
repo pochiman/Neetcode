@@ -32,9 +32,9 @@ Output: [1]
 """
 
 class Solution:
-    def maxSlidingWindow(self, nums: list[int], k: int) -> list[int]:
+    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]: # type: ignore
         output = []
-        q = collections.deque()  # index
+        q = collections.deque()  # type: ignore # index
         l = r = 0
         # O(n) O(n)
         while r < len(nums):
