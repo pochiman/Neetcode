@@ -28,6 +28,12 @@ Example 3:
 Input: s = "(]"
 Output: false
 
+Example 4:
+
+Input: s = "([])"
+
+Output: true
+
 """
 
 class Solution:
