@@ -39,7 +39,7 @@ Explanation: The original array was [11,13,15,17] and it was rotated 4 times.
 """
 
 class Solution:
-    def findMin(self, nums: list[int]) -> int:
+    def findMin(self, nums: List[int]) -> int: # type: ignore
         res = nums[0]
         l, r = 0, len(nums) - 1 
         
