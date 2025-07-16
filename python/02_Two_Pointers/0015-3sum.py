@@ -35,7 +35,7 @@ Explanation: The only possible triplet sums up to 0.
 """
 
 class Solution:
-    def threeSum(self, nums: list[int]) -> list[list[int]]:
+    def threeSum(self, nums: List[int]) -> List[List[int]]: # type: ignore
         res = []
         nums.sort()
 
@@ -55,5 +55,4 @@ class Solution:
                     l += 1
                     while nums[l] == nums[l - 1] and l < r:
                         l += 1
-        
         return res
