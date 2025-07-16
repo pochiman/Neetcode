@@ -15,7 +15,7 @@
 <sub>[0271 - Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)</sub> | <sub><div align='center'>[✔️](python/01_Arrays_%26_Hashing/0271-encode-and-decode-strings.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Hash Table</sub>
 <sub>[0238 - Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)</sub> | <sub><div align='center'>[✔️](python/01_Arrays_%26_Hashing/0238-product-of-array-except-self.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Prefix Sum</sub>
 <sub>[0036 - Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)</sub> | <sub><div align='center'>[✔️](python/01_Arrays_%26_Hashing/0036-valid-sudoku.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Hash Table, Matrix</sub>
-<sub>[0128 - Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)</sub> | <sub><div align='center'>[✔️](python%2F0128-longest-consecutive-sequence.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Hash Table, Union Find</sub>
+<sub>[0128 - Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)</sub> | <sub><div align='center'>[✔️](python/01_Arrays_%26_Hashing/0128-longest-consecutive-sequence.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Hash Table, Union Find</sub>
 
 
 

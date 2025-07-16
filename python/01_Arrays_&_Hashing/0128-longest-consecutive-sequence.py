@@ -21,10 +21,15 @@ Example 2:
 Input: nums = [0,3,7,2,5,8,4,6,0,1]
 Output: 9
 
+Example 3:
+
+Input: nums = [1,0,1,2]
+Output: 3
+
 """
 
 class Solution:
-    def longestConsecutive(self, nums: list[int]) -> int:
+    def longestConsecutive(self, nums: List[int]) -> int: # type: ignore
         numSet = set(nums)
         longest = 0
 
