@@ -20,7 +20,7 @@ Output: ["()"]
 """
 
 class Solution:
-    def generateParenthesis(self, n: int) -> list[str]:
+    def generateParenthesis(self, n: int) -> List[str]: # type: ignore
         # only add open parenthesis if open < n
         # only add a closing parenthesis if closed < open
         # valid IIF open == closed == n
