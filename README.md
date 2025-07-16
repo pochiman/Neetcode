@@ -54,7 +54,7 @@
 <sub>[0022 - Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)</sub> | <sub><div align='center'>[✔️](python/04_Stack/0022-generate-parentheses.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>String, Dynamic Programming, Backtracking</sub>
 <sub>[0739 - Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)</sub> | <sub><div align='center'>[✔️](python/04_Stack/0739-daily-temperatures.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Stack, Monotonic Stack</sub>
 <sub>[0853 - Car Fleet](https://leetcode.com/problems/car-fleet/)</sub> | <sub><div align='center'>[✔️](python/04_Stack/0853-car-fleet.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Stack, Sorting, Monotonic Stack</sub>
-<sub>[0084 - Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)</sub> | <sub><div align='center'>[✔️](python%2F0084-largest-rectangle-in-histogram.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Array, Stack, Monotonic Stack</sub>
+<sub>[0084 - Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)</sub> | <sub><div align='center'>[✔️](python/04_Stack/0084-largest-rectangle-in-histogram.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Array, Stack, Monotonic Stack</sub>
 
 
 

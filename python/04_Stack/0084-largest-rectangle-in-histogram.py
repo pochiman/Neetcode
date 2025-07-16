@@ -22,7 +22,7 @@ Output: 4
 """
 
 class Solution:
-    def largestRectangleArea(self, heights: list[int]) -> int:
+    def largestRectangleArea(self, heights: List[int]) -> int: # type: ignore
         maxArea = 0
         stack = []  # pair: (index, height)
 
