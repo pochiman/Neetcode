@@ -52,8 +52,8 @@
 <sub>[0155 - Min Stack](https://leetcode.com/problems/min-stack/)</sub> | <sub><div align='center'>[✔️](python/04_Stack/0155-min-stack.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Stack, Design</sub>
 <sub>[0150 - Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)</sub> | <sub><div align='center'>[✔️](python/04_Stack/0150-evaluate-reverse-polish-notation.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Math, Stack</sub>
 <sub>[0022 - Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)</sub> | <sub><div align='center'>[✔️](python/04_Stack/0022-generate-parentheses.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>String, Dynamic Programming, Backtracking</sub>
-<sub>[0739 - Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)</sub> | <sub><div align='center'>[✔️](python%2F0739-daily-temperatures.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Stack, Monotonic Stack</sub>
-<sub>[0853 - Car Fleet](https://leetcode.com/problems/car-fleet/)</sub> | <sub><div align='center'>[✔️](python%2F0853-car-fleet.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Stack, Sorting, Monotonic Stack</sub>
+<sub>[0739 - Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)</sub> | <sub><div align='center'>[✔️](python/04_Stack/0739-daily-temperatures.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Stack, Monotonic Stack</sub>
+<sub>[0853 - Car Fleet](https://leetcode.com/problems/car-fleet/)</sub> | <sub><div align='center'>[✔️](python/04_Stack/0853-car-fleet.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Stack, Sorting, Monotonic Stack</sub>
 <sub>[0084 - Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)</sub> | <sub><div align='center'>[✔️](python%2F0084-largest-rectangle-in-histogram.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Array, Stack, Monotonic Stack</sub>
 
 

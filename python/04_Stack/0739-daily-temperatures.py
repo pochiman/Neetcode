@@ -27,7 +27,7 @@ Output: [1,1,0]
 """
 
 class Solution:
-    def dailyTemperatures(self, temperatures: list[int]) -> list[int]:
+    def dailyTemperatures(self, temperatures: List[int]) -> List[int]: # type: ignore
         res = [0] * len(temperatures)
         stack = []  # pair: [temp, index]
 
