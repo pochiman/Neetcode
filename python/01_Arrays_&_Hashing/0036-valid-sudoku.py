@@ -49,10 +49,10 @@ modified to 8. Since there are two 8's in the top left 3x3 sub-box, it is invali
 """
 
 class Solution:
-    def isValidSudoku(self, board: list[list[str]]) -> bool:
-        rows = collections.defaultdict(set)
-        cols = collections.defaultdict(set)
-        squares = collections.defaultdict(set)  # key = (r /3, c /3)
+    def isValidSudoku(self, board: List[List[str]]) -> bool: # type: ignore
+        rows = collections.defaultdict(set) # type: ignore
+        cols = collections.defaultdict(set) # type: ignore
+        squares = collections.defaultdict(set)  # type: ignore # key = (r /3, c /3)
 
         for r in range(9):
             for c in range(9):
