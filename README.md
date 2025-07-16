@@ -62,7 +62,7 @@
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
-<sub>[0704 - Binary Search](https://leetcode.com/problems/binary-search/)</sub> | <sub><div align='center'>[✔️](python%2F0704-binary-search.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Array, Binary Search</sub>
+<sub>[0704 - Binary Search](https://leetcode.com/problems/binary-search/)</sub> | <sub><div align='center'>[✔️](python/05_Binary_Search/0704-binary-search.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Array, Binary Search</sub>
 <sub>[0074 - Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)</sub> | <sub><div align='center'>[✔️](python%2F0074-search-a-2d-matrix.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Binary Search, Matrix</sub>
 <sub>[0875 - Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)</sub> | <sub><div align='center'>[✔️](python%2F0875-koko-eating-bananas.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Binary Search</sub>
 <sub>[0153 - Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)</sub> | <sub><div align='center'>[✔️](python%2F0153-find-minimum-in-rotated-sorted-array.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Binary Search</sub>

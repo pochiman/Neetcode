@@ -25,7 +25,7 @@ Explanation: 2 does not exist in nums so return -1
 """
 
 class Solution:
-    def search(self, nums: list[int], target: int) -> int:
+    def search(self, nums: List[int], target: int) -> int: # type: ignore
         l, r = 0, len(nums) - 1
 
         while l <= r:
