@@ -24,7 +24,7 @@ Output: []
 """
 
 class Solution:
-    def reverseList(self, head: ListNode) -> ListNode:
+    def reverseList(self, head: ListNode) -> ListNode: # type: ignore
         # recursive: T O(n), M O(n)
 
         if not head:
