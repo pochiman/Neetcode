@@ -25,8 +25,8 @@ Output: [1]
 """
 
 class Solution:
-    def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
-        dummy = ListNode(0, head)
+    def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode: # type: ignore
+        dummy = ListNode(0, head) # type: ignore
         left = dummy
         right = head
 
