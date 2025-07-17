@@ -34,8 +34,8 @@ Explanation: Root is considered as good.
 """
 
 class Solution:
-    def goodNodes(self, root: TreeNode) -> int:
-       
+    def goodNodes(self, root: TreeNode) -> int: # type: ignore
+
         def dfs(node, maxVal):
             if not node:
                 return 0

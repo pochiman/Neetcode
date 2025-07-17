@@ -103,6 +103,7 @@
 <sub>[235 - Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)</sub> | <sub><div align='center'>[✔️](python/07_Trees/0235-lowest-common-ancestor-of-a-binary-search-tree.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Tree, Depth-First Search, Binary Search Tree, Binary Tree</sub>
 <sub>[102 - Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)</sub> | <sub><div align='center'>[✔️](python/07_Trees/0102-binary-tree-level-order-traversal.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Tree, Breadth-First Search, Binary Tree</sub>
 <sub>[199 - Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)</sub> | <sub><div align='center'>[✔️](python/07_Trees/0199-binary-tree-right-side-view.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Tree, Depth-First Search, Breadth-First Search, Binary Tree</sub>
+<sub>[1448 - Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)</sub> | <sub><div align='center'>[✔️](python/07_Trees/1448-count-good-nodes-in-binary-tree.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Tree, Depth-First Search, Breadth-First Search, Binary Tree</sub>
 
 
 
