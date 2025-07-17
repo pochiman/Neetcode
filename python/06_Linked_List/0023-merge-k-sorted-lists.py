@@ -35,7 +35,7 @@ Output: []
 """
 
 class Solution:
-    def mergeKLists(self, lists: list[ListNode]) -> ListNode:
+    def mergeKLists(self, lists: List[ListNode]) -> ListNode: # type: ignore
         if not lists or len(lists) == 0:
             return None
 
@@ -50,7 +50,7 @@ class Solution:
         return lists[0]
 
     def mergeList(self, l1, l2):
-        dummy = ListNode()
+        dummy = ListNode() # type: ignore
         tail = dummy
 
         while l1 and l2:
