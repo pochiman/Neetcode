@@ -26,8 +26,8 @@ Explanation: The root node's value is 5 but its right child's value is 4.
 """
 
 class Solution:
-    def isValidBST(self, root: TreeNode) -> bool:
-        
+    def isValidBST(self, root: Optional[TreeNode]) -> bool: # type: ignore
+
         def valid(node, left, right):
             if not node:
                 return True
