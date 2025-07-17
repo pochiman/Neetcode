@@ -114,9 +114,11 @@
 
 #### 08 Heap / Priority Queue
 
-|  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
-|-----|----------------|---------------|----------------|-------------
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
+<sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
+---- | ---- | ---- | ----
+<sub>[703 - Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)</sub> | <sub><div align='center'>[✔️](python/08_Heap_|_Priority_Queue/0703-kth-largest-element-in-a-stream.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Tree, Design, Binary Search Tree, Heap (Priority Queue), 2+</sub>
+
+
 
 
 
