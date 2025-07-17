@@ -14,10 +14,16 @@ Output: [1,3,4]
 
 Example 2:
 
+Input: root = [1,2,3,4,null,null,null,5]
+
+Output: [1,3,4,5]
+
+Example 3:
+
 Input: root = [1,null,3]
 Output: [1,3]
 
-Example 3:
+Example 4:
 
 Input: root = []
 Output: []
@@ -25,9 +31,9 @@ Output: []
 """
 
 class Solution:
-    def rightSideView(self, root: TreeNode) -> list[int]:
+    def rightSideView(self, root: TreeNode) -> List[int]: # type: ignore
         res = []
-        q = collections.deque([root])
+        q = collections.deque([root]) # type: ignore
 
         while q:
             rightSide = None
