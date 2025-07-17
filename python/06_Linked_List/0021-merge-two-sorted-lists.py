@@ -30,8 +30,8 @@ Output: [0]
 
 # Iterative
 class Solution:
-    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
-        dummy = ListNode()
+    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode: # type: ignore
+        dummy = ListNode() # type: ignore
         tail = dummy
 
         while l1 and l2:
