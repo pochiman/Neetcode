@@ -52,7 +52,7 @@ class LRUCache:
 
         # left = LRU, right = most recent
         self.left, self.right = Node(0, 0), Node(0, 0)
-        self.left.next, self.right.prev = self.right, self.left
+        self.left.next, self.right.prev = self.right, self.left # type: ignore
 
     # remove node from list
     def remove(self, node):
@@ -62,7 +62,7 @@ class LRUCache:
     # insert node at right
     def insert(self, node):
         prev, nxt = self.right.prev, self.right
-        prev.next = nxt.prev = node
+        prev.next = nxt.prev = node # type: ignore
         node.next, node.prev = nxt, prev
 
     def get(self, key: int) -> int:
@@ -82,4 +82,4 @@ class LRUCache:
             # remove from the list and delete the LRU from hashmap
             lru = self.left.next
             self.remove(lru)
-            del self.cache[lru.key]
+            del self.cache[lru.key] # type: ignore
