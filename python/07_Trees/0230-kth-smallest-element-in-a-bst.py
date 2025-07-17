@@ -20,7 +20,8 @@ Output: 3
 """
 
 class Solution:
-    def kthSmallest(self, root: TreeNode, k: int) -> int:
+    def kthSmallest(self, root: Optional[TreeNode], k: int) -> int: # type: ignore
+        n = 0
         stack = []
         curr = root
 
