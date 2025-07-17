@@ -26,8 +26,8 @@ Output: [3,2,1,4,5]
 """
 
 class Solution:
-    def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
-        dummy = ListNode(0, head)
+    def reverseKGroup(self, head: ListNode, k: int) -> ListNode: # type: ignore
+        dummy = ListNode(0, head) # type: ignore
         groupPrev = dummy
 
         while True:
@@ -38,7 +38,6 @@ class Solution:
 
             # reverse group
             prev, curr = kth.next, groupPrev.next
-            
             while curr != groupNext:
                 tmp = curr.next
                 curr.next = prev
