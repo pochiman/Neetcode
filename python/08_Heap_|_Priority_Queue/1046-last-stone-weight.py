@@ -10,6 +10,7 @@ stones and smash them together. Suppose the heaviest two stones have weights x
 and y with x <= y. The result of this smash is:
 
 • If x == y, both stones are destroyed, and
+
 • If x != y, the stone of weight x is destroyed, and the stone of weight y has 
   new weight y - x.
 
@@ -39,15 +40,15 @@ Output: 1
 """
 
 class Solution:
-    def lastStoneWeight(self, stones: list[int]) -> int:
+    def lastStoneWeight(self, stones: List[int]) -> int: # type: ignore
         stones = [-s for s in stones]
-        heapq.heapify(stones)
+        heapq.heapify(stones) # type: ignore
 
         while len(stones) > 1:
-            first = heapq.heappop(stones)
-            second = heapq.heappop(stones)
+            first = heapq.heappop(stones) # type: ignore
+            second = heapq.heappop(stones) # type: ignore
             if second > first:
-                heapq.heappush(stones, first - second)
+                heapq.heappush(stones, first - second) # type: ignore
 
         stones.append(0)
         return abs(stones[0])
