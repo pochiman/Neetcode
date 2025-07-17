@@ -25,10 +25,10 @@ Output: []
 """
 
 class Solution:
-    def levelOrder(self, root: TreeNode) -> list[list[int]]:
+    def levelOrder(self, root: TreeNode) -> List[List[int]]: # type: ignore
         res = []
 
-        q = collections.deque()
+        q = collections.deque() # type: ignore
         q.append(root)
 
         while q:
