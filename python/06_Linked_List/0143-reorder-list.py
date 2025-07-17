@@ -27,7 +27,7 @@ Output: [1,5,2,4,3]
 """
 
 class Solution:
-    def reorderList(self, head: ListNode) -> None:
+    def reorderList(self, head: ListNode) -> None: # type: ignore
         # find middle
         slow, fast = head, head.next
         while fast and fast.next:
