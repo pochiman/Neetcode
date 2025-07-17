@@ -30,8 +30,8 @@ Output: [8,9,9,9,0,0,0,1]
 """
 
 class Solution:
-    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
-        dummy = ListNode()
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode: # type: ignore
+        dummy = ListNode() # type: ignore
         cur = dummy
 
         carry = 0
@@ -43,7 +43,7 @@ class Solution:
             val = v1 + v2 + carry
             carry = val // 10
             val = val % 10
-            cur.next = ListNode(val)
+            cur.next = ListNode(val) # type: ignore
 
             # update ptrs
             cur = cur.next
