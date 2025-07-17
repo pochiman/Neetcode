@@ -25,7 +25,7 @@ Output: false
 """
 
 class Solution:
-    def isSubtree(self, s: TreeNode, t: TreeNode) -> bool:
+    def isSubtree(self, s: TreeNode, t: TreeNode) -> bool: # type: ignore
         if not t: return True
         if not s: return False
 
