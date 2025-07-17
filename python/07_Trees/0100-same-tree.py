@@ -28,7 +28,7 @@ Output: false
 """
 
 class Solution:
-    def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
+    def isSameTree(self, p: TreeNode, q: TreeNode) -> bool: # type: ignore
         if not p and not q:
             return True
         if not p or not q or p.val != q.val:

@@ -98,6 +98,7 @@
 <sub>[104 - Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)</sub> | <sub><div align='center'>[✔️](python/07_Trees/0104-maximum-depth-of-binary-tree.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Tree, Depth-First Search, Breadth-First Search, Binary Tree</sub>
 <sub>[543 - Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)</sub> | <sub><div align='center'>[✔️](python/07_Trees/0543-diameter-of-binary-tree.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Tree, Depth-First Search, Binary Tree</sub>
 <sub>[110 - Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)</sub> | <sub><div align='center'>[✔️](python/07_Trees/0110-balanced-binary-tree.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Tree, Depth-First Search, Binary Tree</sub>
+<sub>[100 - Same Tree](https://leetcode.com/problems/same-tree/)</sub> | <sub><div align='center'>[✔️](python/07_Trees/0100-same-tree.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Tree, Depth-First Search, Breadth-First Search, Binary Tree</sub>
 
 
 
