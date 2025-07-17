@@ -21,11 +21,11 @@ Output: [-1]
 """
 
 class Solution:
-    def buildTree(self, preorder: list[int], inorder: list[int]) -> Optional[TreeNode]:
+    def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]: # type: ignore
         if not preorder or not inorder:
             return None
 
-        root = TreeNode(preorder[0])
+        root = TreeNode(preorder[0]) # type: ignore
         mid = inorder.index(preorder[0])
         root.left = self.buildTree(preorder[1:mid + 1], inorder[:mid])
         root.right = self.buildTree(preorder[mid + 1:], inorder[mid + 1:])

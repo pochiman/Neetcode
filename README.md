@@ -106,6 +106,7 @@
 <sub>[1448 - Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)</sub> | <sub><div align='center'>[✔️](python/07_Trees/1448-count-good-nodes-in-binary-tree.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Tree, Depth-First Search, Breadth-First Search, Binary Tree</sub>
 <sub>[98 - Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)</sub> | <sub><div align='center'>[✔️](python/07_Trees/0098-validate-binary-search-tree.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Tree, Depth-First Search, Binary Search Tree, Binary Tree</sub>
 <sub>[230 - Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)</sub> | <sub><div align='center'>[✔️](python/07_Trees/0230-kth-smallest-element-in-a-bst.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Tree, Depth-First Search, Binary Search Tree, Binary Tree</sub>
+<sub>[105 - Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)</sub> | <sub><div align='center'>[✔️](python/07_Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Hash Table, Divide and Conquer, Tree, 1+</sub>
 
 
 
