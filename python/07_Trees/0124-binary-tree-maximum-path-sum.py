@@ -27,7 +27,7 @@ Explanation: The optimal path is 15 -> 20 -> 7 with a path sum of 15 + 20 + 7 = 
 """
 
 class Solution:
-    def maxPathSum(self, root: TreeNode) -> int:
+    def maxPathSum(self, root: Optional[TreeNode]) -> int: # type: ignore
         res = [root.val]
 
         # return max path sum without split

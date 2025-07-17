@@ -107,6 +107,7 @@
 <sub>[98 - Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)</sub> | <sub><div align='center'>[✔️](python/07_Trees/0098-validate-binary-search-tree.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Tree, Depth-First Search, Binary Search Tree, Binary Tree</sub>
 <sub>[230 - Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)</sub> | <sub><div align='center'>[✔️](python/07_Trees/0230-kth-smallest-element-in-a-bst.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Tree, Depth-First Search, Binary Search Tree, Binary Tree</sub>
 <sub>[105 - Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)</sub> | <sub><div align='center'>[✔️](python/07_Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Hash Table, Divide and Conquer, Tree, 1+</sub>
+<sub>[124 - Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)</sub> | <sub><div align='center'>[✔️](python/07_Trees/0124-binary-tree-maximum-path-sum.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Dynamic Programming, Tree, Depth-First Search, Binary Tree</sub>
 
 
 
