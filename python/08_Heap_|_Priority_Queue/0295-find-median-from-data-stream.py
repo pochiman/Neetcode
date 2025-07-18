@@ -46,26 +46,26 @@ class MedianFinder:
         self.small, self.large = [], []  # maxHeap, minHeap (python default)
 
     def addNum(self, num: int) -> None:
-        heapq.heappush(self.small, -1 * num)
+        heapq.heappush(self.small, -1 * num) # type: ignore
 
         # make sure every num small is <= every num in large
         if (self.small and self.large and 
             (-1 * self.small[0]) > self.large[0]):
-            val = -1 * heapq.heappop(self.small)
-            heapq.heappush(self.large, val)
+            val = -1 * heapq.heappop(self.small) # type: ignore
+            heapq.heappush(self.large, val) # type: ignore
 
         # uneven size?
         if len(self.small) > len(self.large) + 1:
-            val = -1 * heapq.heappop(self.small)
-            heapq.heappush(self.large, val)
+            val = -1 * heapq.heappop(self.small) # type: ignore
+            heapq.heappush(self.large, val) # type: ignore
         if len(self.large) > len(self.small) + 1: 
-            val = heapq.heappop(self.large)
-            heapq.heappush(self.small, -1 * val)
+            val = heapq.heappop(self.large) # type: ignore
+            heapq.heappush(self.small, -1 * val) # type: ignore
 
     def findMedian(self) -> float:
         if len(self.small) > len(self.large):
             return -1 * self.small[0]
         if len(self.large) > len(self.small):
             return self.large[0]
-        
+
         return (-1 * self.small[0] + self.large[0]) / 2
