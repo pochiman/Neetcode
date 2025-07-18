@@ -37,7 +37,7 @@ Output: []
 """
 
 class Solution:
-    def combinationSum(self, candidates: list[int], target: int) -> list[list[int]]:
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]: # type: ignore
         res = []
 
         def dfs(i, cur, total):
