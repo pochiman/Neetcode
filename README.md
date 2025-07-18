@@ -132,6 +132,8 @@
 ---- | ---- | ---- | ----
 <sub>[78 - Subsets](https://leetcode.com/problems/subsets/)</sub> | <sub><div align='center'>[✔️](python/09_Backtracking/0078-subsets.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Backtracking, Bit Manipulation</sub>
 <sub>[39 - Combination Sum](https://leetcode.com/problems/combination-sum/)</sub> | <sub><div align='center'>[✔️](python/09_Backtracking/0039-combination-sum.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Backtracking</sub>
+<sub>[39 - Combination Sum](https://leetcode.com/problems/combination-sum/)</sub> | <sub><div align='center'>[✔️](python/09_Backtracking/0039-combination-sum.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Backtracking</sub>
+<sub>[40 - Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)</sub> | <sub><div align='center'>[✔️](python/09_Backtracking/0040-combination-sum-ii.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Backtracking</sub>
 
 
 
