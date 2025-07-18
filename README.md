@@ -121,6 +121,7 @@
 <sub>[973 - K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)</sub> | <sub><div align='center'>[✔️](python/08_Heap_|_Priority_Queue/0973-k-closest-points-to-origin.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Math, Divide and Conquer, Geometry, 3+</sub>
 <sub>[215 - Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)</sub> | <sub><div align='center'>[✔️](python/08_Heap_|_Priority_Queue/0215-kth-largest-element-in-an-array.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Divide and Conquer, Sorting, Heap (Priority Queue), 1+</sub>
 <sub>[621 - Task Scheduler](https://leetcode.com/problems/task-scheduler/)</sub> | <sub><div align='center'>[✔️](python/08_Heap_|_Priority_Queue/0621-task-scheduler.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Hash Table, Greedy, Sorting, 2+</sub>
+<sub>[355 - Design Twitter](https://leetcode.com/problems/design-twitter/)</sub> | <sub><div align='center'>[✔️](python/08_Heap_|_Priority_Queue/0355-design-twitter.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Hash Table, Linked List, Design, Heap (Priority Queue)</sub>
 
 
 

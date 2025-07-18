@@ -52,14 +52,14 @@ twitter.getNewsFeed(1);  // User 1's news feed should return a list with 1 tweet
 class Twitter:
     def __init__(self):
         self.count = 0
-        self.tweetMap = defaultdict(list)  # userId -> list of [count, tweetIds]
-        self.followMap = defaultdict(set)  # userId -> set of followeeId
+        self.tweetMap = defaultdict(list)  # type: ignore # userId -> list of [count, tweetIds]
+        self.followMap = defaultdict(set)  # type: ignore # userId -> set of followeeId
 
     def postTweet(self, userId: int, tweetId: int) -> None:
         self.tweetMap[userId].append([self.count, tweetId])
         self.count -= 1
 
-    def getNewsFeed(self, userId: int) -> list[int]:
+    def getNewsFeed(self, userId: int) -> List[int]: # type: ignore
         res = []  # ordered starting from recent
         minHeap = []
 
@@ -69,13 +69,13 @@ class Twitter:
                 index = len(self.tweetMap[followeeId]) - 1
                 count, tweetId = self.tweetMap[followeeId][index]
                 minHeap.append([count, tweetId, followeeId, index - 1])
-        heapq.heapify(minHeap)
+        heapq.heapify(minHeap) # type: ignore
         while minHeap and len(res) < 10:
-            count, tweetId, followeeId, index = heapq.heappop(minHeap)
+            count, tweetId, followeeId, index = heapq.heappop(minHeap) # type: ignore
             res.append(tweetId)
             if index >= 0:
                 count, tweetId = self.tweetMap[followeeId][index]
-                heapq.heappush(minHeap, [count, tweetId, followeeId, index - 1])
+                heapq.heappush(minHeap, [count, tweetId, followeeId, index - 1]) # type: ignore
         return res
 
     def follow(self, followerId: int, followeeId: int) -> None:
