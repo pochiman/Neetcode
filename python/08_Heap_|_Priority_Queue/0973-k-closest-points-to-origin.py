@@ -33,16 +33,16 @@ Explanation: The answer [[-2,4],[3,3]] would also be accepted.
 """
 
 class Solution:
-    def kClosest(self, points: list[list[int]], k: int) -> list[list[int]]:
+    def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]: # type: ignore
         minHeap = []
         for x, y in points:
             dist = (x ** 2) + (y ** 2)
             minHeap.append([dist, x, y])
 
-        heapq.heapify(minHeap)
+        heapq.heapify(minHeap) # type: ignore
         res = []
         while k > 0:
-            dist, x, y = heapq.heappop(minHeap)
+            dist, x, y = heapq.heappop(minHeap) # type: ignore
             res.append([x, y])
             k-= 1
 

@@ -118,6 +118,7 @@
 ---- | ---- | ---- | ----
 <sub>[703 - Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)</sub> | <sub><div align='center'>[✔️](python/08_Heap_|_Priority_Queue/0703-kth-largest-element-in-a-stream.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Tree, Design, Binary Search Tree, Heap (Priority Queue), 2+</sub>
 <sub>[1046 - Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)</sub> | <sub><div align='center'>[✔️](python/08_Heap_|_Priority_Queue/1046-last-stone-weight.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Array, Heap (Priority Queue)</sub>
+<sub>[973 - K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)</sub> | <sub><div align='center'>[✔️](python/08_Heap_|_Priority_Queue/0973-k-closest-points-to-origin.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Math, Divide and Conquer, Geometry, 3+</sub>
 
 
 
