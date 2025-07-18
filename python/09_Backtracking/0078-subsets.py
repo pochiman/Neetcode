@@ -23,10 +23,10 @@ Output: [[],[0]]
 """
 
 class Solution:
-    def subsets(self, nums: list[int]) -> list[list[int]]:
+    def subsets(self, nums: List[int]) -> List[List[int]]: # type: ignore
         res = []
-
         subset = []
+
         def dfs(i):
             if i >= len(nums):
                 res.append(subset.copy())

@@ -128,9 +128,9 @@
 
 #### 09 Backtracking
 
-|  #  |      Title     |   Solutions   |   Difficulty   |   Tag        
-|-----|----------------|---------------|----------------|-------------
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](../master/algorithms/1.two-sum.js)| Easy | HashMap
+<sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
+---- | ---- | ---- | ----
+<sub>[78 - Subsets](https://leetcode.com/problems/subsets/)</sub> | <sub><div align='center'>[✔️](python/09_Backtracking/0078-subsets.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Backtracking, Bit Manipulation</sub>
 
 
 
