@@ -173,7 +173,7 @@
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
-[70 - Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)</sub> | <sub><div align='center'>[✔️](python/13_1-D_Dynamic_Programming/0070-climbing-stairs.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Math, Dynamic Programming, Memoization</sub>
+<sub>[70 - Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)</sub> | <sub><div align='center'>[✔️](python/13_1-D_Dynamic_Programming/0070-climbing-stairs.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Math, Dynamic Programming, Memoization</sub>
 
 
 
@@ -181,7 +181,7 @@
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
-[62 - Unique Paths](https://leetcode.com/problems/unique-paths/)</sub> | <sub><div align='center'>[✔️](python/14_2-D_Dynamic_Programming/0062-unique-paths.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Math, Dynamic Programming, Combinatorics</sub>
+<sub>[62 - Unique Paths](https://leetcode.com/problems/unique-paths/)</sub> | <sub><div align='center'>[✔️](python/14_2-D_Dynamic_Programming/0062-unique-paths.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Math, Dynamic Programming, Combinatorics</sub>
 
 
 
@@ -189,7 +189,7 @@
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
-[53 - Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)</sub> | <sub><div align='center'>[✔️](python/15_Greedy/0053-maximum-subarray.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Divide and Conquer, Dynamic Programming</sub>
+<sub>[53 - Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)</sub> | <sub><div align='center'>[✔️](python/15_Greedy/0053-maximum-subarray.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Divide and Conquer, Dynamic Programming</sub>
 
 
 
@@ -197,7 +197,7 @@
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
-[57 - Insert Interval](https://leetcode.com/problems/insert-interval/)</sub> | <sub><div align='center'>[✔️](python/16_Intervals/0057-insert-interval.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array</sub>
+<sub>[57 - Insert Interval](https://leetcode.com/problems/insert-interval/)</sub> | <sub><div align='center'>[✔️](python/16_Intervals/0057-insert-interval.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array</sub>
 
 
 
@@ -205,6 +205,7 @@
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
+<sub>[48 - Rotate Image](https://leetcode.com/problems/rotate-image/)</sub> | <sub><div align='center'>[✔️](python/17_Math_&_Geometry/0048-rotate-image.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Math, Matrix</sub>
 
 
 
