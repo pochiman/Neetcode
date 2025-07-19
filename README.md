@@ -136,6 +136,7 @@
 <sub>[40 - Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)</sub> | <sub><div align='center'>[✔️](python/09_Backtracking/0040-combination-sum-ii.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Backtracking</sub>
 <sub>[46 - Permutations](https://leetcode.com/problems/permutations/)</sub> | <sub><div align='center'>[✔️](python/09_Backtracking/0046-permutations.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Backtracking</sub>
 <sub>[90 - Subsets II](https://leetcode.com/problems/subsets-ii/)</sub> | <sub><div align='center'>[✔️](python/09_Backtracking/0090-subsets-ii.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Backtracking, Bit Manipulation</sub>
+<sub>[79 - Word Search](https://leetcode.com/problems/word-search/)</sub> | <sub><div align='center'>[✔️](python/09_Backtracking/0079-word-search.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, String, Backtracking, Depth-First Search, 1+</sub>
 
 
 
