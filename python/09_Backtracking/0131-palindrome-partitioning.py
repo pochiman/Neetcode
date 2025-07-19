@@ -19,8 +19,14 @@ Output: [["a"]]
 
 """
 
+# Solution 2: Backtracking - II [✔️]
+# Time Complexity: O(n * 2^n)
+# Space Complexity: 
+#   - O(n) extra space.
+#   - O(n * 2^n) space for the output list.
+
 class Solution:
-    def partition(self, s: str) -> list[list[str]]:
+    def partition(self, s: str) -> List[List[str]]: # type: ignore
         res, part = [], []
 
         def dfs(i):
