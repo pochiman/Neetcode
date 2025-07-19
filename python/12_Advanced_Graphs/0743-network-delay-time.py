@@ -30,9 +30,15 @@ Output: -1
 
 """
 
+# Solution 5: Dijkstra's Algorithm [✔️]
+# Time Complexity: O(E log V)
+# Space Complexity: O(V + E)
+
+# Where V is the number of vertices and E is the number of edges.
+
 class Solution:
-    def networkDelayTime(self, times: list[list[int]], n: int, k: int) -> int:
-        edges = collections.defaultdict(list)
+    def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int: # type: ignore
+        edges = collections.defaultdict(list) # type: ignore
         for u, v, w in times:
             edges[u].append((v, w))
 
@@ -40,7 +46,7 @@ class Solution:
         visit = set()
         t = 0
         while minHeap:
-            w1, n1 = heapq.heappop(minHeap)
+            w1, n1 = heapq.heappop(minHeap) # type: ignore
             if n1 in visit:
                 continue
             visit.add(n1)
@@ -48,7 +54,7 @@ class Solution:
 
             for n2, w2 in edges[n1]:
                 if n2 not in visit:
-                    heapq.heappush(minHeap, (w1 + w2, n2))
+                    heapq.heappush(minHeap, (w1 + w2, n2)) # type: ignore
 
         return t if len(visit) == n else -1
 

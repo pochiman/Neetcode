@@ -165,6 +165,7 @@
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
+<sub>[743 - Network Delay Time](https://leetcode.com/problems/network-delay-time/)</sub> | <sub><div align='center'>[✔️](python/12_Advanced_Graphs/0743-network-delay-time.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Depth-First Search, Breadth-First Search, Graph, Heap (Priority Queue), 1+</sub>
 
 
 
