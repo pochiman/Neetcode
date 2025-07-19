@@ -181,6 +181,7 @@
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
+[62 - Unique Paths](https://leetcode.com/problems/unique-paths/)</sub> | <sub><div align='center'>[✔️](python/14_2-D_Dynamic_Programming/0062-unique-paths.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Math, Dynamic Programming, Combinatorics</sub>
 
 
 

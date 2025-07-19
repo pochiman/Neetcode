@@ -11,7 +11,7 @@ Given the two integers m and n, return the number of possible unique paths that
 the robot can take to reach the bottom-right corner.
 
 The test cases are generated so that the answer will be less than or equal to 
-2 * 109.
+2 * 10^9.
 
 
 
@@ -32,7 +32,13 @@ bottom-right corner:
 
 """
 
-class Solution:
+# Solution 4: Dynamic Programming (Space Optimized) [✔️]
+# Time Complexity: O(m * n)
+# Space Complexity: O(n)
+
+# Where m is the number of rows and n is the number of columns.
+
+class Solution: # type: ignore
     def uniquePaths(self, m: int, n: int) -> int:
         row = [1] * n
 
@@ -44,3 +50,22 @@ class Solution:
         return row[0]
 
         # O(n * m) O(n)
+
+
+######## ######## ######## ######## ######## ######## ########
+
+
+# Solution 5: Dynamic Programming (Optimal)
+# Time Complexity: O(m * n)
+# Space Complexity: O(n)
+
+# Where m is the number of rows and n is the number of columns.
+
+class Solution:
+    def uniquePaths(self, m: int, n: int) -> int:
+        dp = [1] * n
+        for i in range(m - 2, -1, -1):
+            for j in range(n - 2, -1, -1):
+                dp[j] += dp[j + 1]
+                
+        return dp[0]
