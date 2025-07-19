@@ -1,5 +1,7 @@
 """
 
+90. Subsets II
+
 Given an integer array nums that may contain duplicates, return all possible 
 subsets (the power set).
 
@@ -20,8 +22,14 @@ Output: [[],[0]]
 
 """
 
+# Solution 2: Backtracking - I [✔️]
+# Time Complexity: O(n * 2^n)
+# Space Complexity: 
+#   - O(n) extra space.
+#   - O(2^n) space for the output list.
+
 class Solution:
-    def subsetsWithDup(self, nums: list[int]) -> list[list[int]]:
+    def subsetsWithDup(self, nums: List[int]) -> List[List[int]]: # type: ignore
         res = []
         nums.sort()
 
@@ -39,5 +47,6 @@ class Solution:
             while i + 1 < len(nums) and nums[i] == nums[i + 1]:
                 i += 1
             backtrack(i + 1, subset)
+
         backtrack(0, [])
         return res
