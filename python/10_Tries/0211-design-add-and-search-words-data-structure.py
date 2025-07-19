@@ -35,6 +35,12 @@ wordDictionary.search("b.."); // return True
 
 """
 
+# Solution 2: Depth First Search (Trie) [✔️]
+# Time Complexity: O(n) for addWord(), O(n) for search().
+# Space Complexity: O(t + n)
+
+# Where n is the length of the string and t is the total number of TrieNodes created in the Trie.
+
 class TrieNode:
     def __init__(self):
         self.children = {}  # a : TrieNode
