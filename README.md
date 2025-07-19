@@ -140,8 +140,6 @@
 <sub>[131 - Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)</sub> | <sub><div align='center'>[✔️](python/09_Backtracking/0131-palindrome-partitioning.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>String, Dynamic Programming, Backtracking</sub>
 <sub>[17 - Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)</sub> | <sub><div align='center'>[✔️](python/09_Backtracking/0017-letter-combinations-of-a-phone-number.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Hash Table, String, Backtracking</sub>
 <sub>[51 - N-Queens](https://leetcode.com/problems/n-queens/)</sub> | <sub><div align='center'>[✔️](python/09_Backtracking/0051-n-queens.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Array, Backtracking</sub>
-<sub>[208 - Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)</sub> | <sub><div align='center'>[✔️](python/10_Tries/0208-implement-trie-prefix-tree.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Hash Table, String, Design, Trie</sub>
-<sub>[211 - Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)</sub> | <sub><div align='center'>[✔️](python/10_Tries/0211-design-add-and-search-words-data-structure.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>String, Depth-First Search, Design, Trie</sub>
 
 
 
@@ -149,6 +147,9 @@
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
+<sub>[208 - Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)</sub> | <sub><div align='center'>[✔️](python/10_Tries/0208-implement-trie-prefix-tree.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Hash Table, String, Design, Trie</sub>
+<sub>[211 - Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)</sub> | <sub><div align='center'>[✔️](python/10_Tries/0211-design-add-and-search-words-data-structure.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>String, Depth-First Search, Design, Trie</sub>
+<sub>[212 - Word Search II](https://leetcode.com/problems/word-search-ii/)</sub> | <sub><div align='center'>[✔️](python/10_Tries/0212-word-search-ii.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Array, String, Backtracking, Trie, 1+</sub>
 
 
 
@@ -156,6 +157,7 @@
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
+<sub>[200 - Number of Islands](https://leetcode.com/problems/number-of-islands/)</sub> | <sub><div align='center'>[✔️](python/11_Graphs/0200-number-of-islands.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Depth-First Search, Breadth-First Search, Union Find, 1+</sub>
 
 
 

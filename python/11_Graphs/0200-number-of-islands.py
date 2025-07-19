@@ -33,8 +33,14 @@ Output: 3
 
 """
 
+# Solution 2: Breadth First Search [✔️]
+# Time Complexity: O(m * n)
+# Space Complexity: O(m * n)
+
+# Where m is the number of rows and n is the number of columns in the grid.
+
 class Solution:
-    def numIslands(self, grid: list[list[str]]) -> int:
+    def numIslands(self, grid: List[List[str]]) -> int: # type: ignore
         if not grid:
             return 0
 
@@ -43,9 +49,10 @@ class Solution:
         islands = 0
 
         def bfs(r, c):
-            q = collections.deque()
+            q = collections.deque() # type: ignore
             visit.add((r, c))
             q.append((r, c))
+
             while q:
                 row, col = q.popleft()
                 directions = [[1, 0], [-1, 0], [0, 1], [0, -1]]
@@ -54,12 +61,14 @@ class Solution:
                     if (r in range(rows) and 
                         c in range(cols) and 
                         grid[r][c] == "1" and 
-                        (r, c) not in visit):                       
+                        (r, c) not in visit):
                          q.append((r, c))
                          visit.add((r, c))
+
         for r in range(rows):
             for c in range(cols):
                 if grid[r][c] == "1" and (r, c) not in visit:
                     bfs(r, c)
                     islands += 1
+
         return islands
