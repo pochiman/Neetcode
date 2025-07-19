@@ -28,6 +28,10 @@ Explanation: There are three ways to climb to the top.
 
 """
 
+# Solution 4: Dynamic Programming (Space Optimized) [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
     def climbStairs(self, n: int) -> int:
         one, two = 1, 1
