@@ -189,6 +189,7 @@
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
+[53 - Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)</sub> | <sub><div align='center'>[✔️](python/15_Greedy/0053-maximum-subarray.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Divide and Conquer, Dynamic Programming</sub>
 
 
 

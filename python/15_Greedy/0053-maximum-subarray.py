@@ -27,8 +27,12 @@ Explanation: The subarray [5,4,-1,7,8] has the largest sum 23.
 
 """
 
+# Solution 6: Kadane's Algorithm [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
-    def maxSubArray(self, nums: list[int]) -> int:
+    def maxSubArray(self, nums: List[int]) -> int: # type: ignore
         maxSub = nums[0]
         curSum = 0
 
