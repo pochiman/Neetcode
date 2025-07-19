@@ -26,8 +26,12 @@ Output: [["Q"]]
 
 """
 
+# Solution 2: Backtracking (Hash Set) [✔️]
+# Time Complexity: O(n!)
+# Space Complexity: O(n^2)
+
 class Solution:
-    def solveNQueens(self, n: int) -> list[list[str]]:
+    def solveNQueens(self, n: int) -> List[List[str]]: # type: ignore
         col = set()
         posDiag = set()  # (r + c)
         negDiag = set()  # (r - c)
