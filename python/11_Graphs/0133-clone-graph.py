@@ -55,15 +55,21 @@ Explanation: This an empty graph, it does not have any nodes.
 
 """
 
+# Solution 1: Depth First Search [✔️]
+# Time Complexity: O(V + E)
+# Space Complexity: O(V)
+
+# Where V is the number of vertices and E is the number of edges.
+
 class Solution:
-    def cloneGraph(self, node: "Node") -> "Node":
+    def cloneGraph(self, node: Optional['Node']) -> Optional['Node']: # type: ignore
         oldToNew = {}
 
         def dfs(node):
             if node in oldToNew:
                 return oldToNew[node]
 
-            copy = Node(node.val)
+            copy = Node(node.val) # type: ignore
             oldToNew[node] = copy
             for nei in node.neighbors:
                 copy.neighbors.append(dfs(nei))

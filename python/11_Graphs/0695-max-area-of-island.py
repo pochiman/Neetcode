@@ -37,7 +37,7 @@ Output: 0
 # Where m is the number of rows and n is the number of columns in the grid.
 
 class Solution:
-    def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
+    def maxAreaOfIsland(self, grid: List[List[int]]) -> int: # type: ignore
         ROWS, COLS = len(grid), len(grid[0])
         visit = set()
 

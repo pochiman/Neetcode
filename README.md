@@ -159,6 +159,7 @@
 ---- | ---- | ---- | ----
 <sub>[200 - Number of Islands](https://leetcode.com/problems/number-of-islands/)</sub> | <sub><div align='center'>[✔️](python/11_Graphs/0200-number-of-islands.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Depth-First Search, Breadth-First Search, Union Find, 1+</sub>
 <sub>[695 - Max Area of Island](https://leetcode.com/problems/max-area-of-island/)</sub> | <sub><div align='center'>[✔️](python/11_Graphs/0695-max-area-of-island.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Depth-First Search, Breadth-First Search, Union Find, 1+</sub>
+<sub>[133 - Clone Graph](https://leetcode.com/problems/clone-graph/)</sub> | <sub><div align='center'>[✔️](python/11_Graphs/0133-clone-graph.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Hash Table, Depth-First Search, Breadth-First Search, Graph</sub>
 
 
 
