@@ -213,7 +213,7 @@
 
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
-
+<sub>[136 - Single Number](https://leetcode.com/problems/single-number/)</sub> | <sub><div align='center'>[✔️](python/18_Bit_Manipulation/0136-single-number.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Array, Bit Manipulation</sub>
 
 
 
