@@ -36,6 +36,12 @@ trie.search("app");     // return True
 
 """
 
+# Solution 2: Prefix Tree (Hash Map) [✔️]
+# Time Complexity: O(n) for each function call.
+# Space Complexity: O(t)
+
+# Where n is the length of the string and t is the total number of TrieNodes created in the Trie.
+
 class TrieNode:
     def __init__(self):
         self.children = {}
