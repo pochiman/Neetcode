@@ -27,8 +27,14 @@ Output: ["a","b","c"]
 
 """
 
+# Solution 1: Backtracking [✔️]
+# Time Complexity: O(n * 4^n)
+# Space Complexity: 
+#   - O(n) extra space.
+#   - O(n * 4^n) space for the output list.
+
 class Solution:
-    def letterCombinations(self, digits: str) -> list[str]:
+    def letterCombinations(self, digits: str) -> List[str]: # type: ignore
         res = []
         digitToChar = { "2": "abc",
                         "3": "def",
