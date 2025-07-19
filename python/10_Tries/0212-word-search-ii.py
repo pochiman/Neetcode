@@ -25,6 +25,13 @@ Output: []
 
 """
 
+# Solution 2: Backtracking (Trie + Hash Set) [✔️]
+# Time Complexity: O(m * n * 4 * 3^t-1 + s)
+# Space Complexity: O(s)
+
+# Where m is the number of rows, n is the number of columns, t is the maximum length 
+# of any word in the array words and s is the sum of the lengths of all the words. 
+
 class TrieNode:
     def __init__(self):
         self.children = {}
@@ -39,7 +46,7 @@ class TrieNode:
         cur.isWord = True
 
 class Solution:
-    def findWords(self, board: list[list[str]], words: list[str]) -> list[str]:
+    def findWords(self, board: List[List[str]], words: List[str]) -> List[str]: # type: ignore
         root = TrieNode()
         for w in words:
             root.addWord(w)
