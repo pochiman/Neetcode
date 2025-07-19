@@ -35,6 +35,12 @@ medianFinder.findMedian(); // return 2.0
 
 """
 
+# Solution 2: Heap [✔️]
+# Time Complexity: O(m * log n) for addNum(), O(m) for findMedian().
+# Space Complexity: O(n)
+
+# Where m is the number of function calls and n is the length of the array.
+
 class MedianFinder:
 
     def __init__(self):

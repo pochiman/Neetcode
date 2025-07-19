@@ -41,6 +41,12 @@ There are only two types of tasks, A and B, which need to be separated by
 
 """
 
+# Solution 2: Max-Heap [✔️]
+# Time Complexity: O(m)
+# Space Complexity: O(1) since we have at most 26 different characters.
+
+# Where m is the number of tasks.
+
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int: # type: ignore
         # each task 1 unit time

@@ -24,6 +24,12 @@ Output: false
 
 """
 
+# Solution 1: Depth First Search [✔️]
+# Time Complexity: O(m * n)
+# Space Complexity: O(m + n)
+
+# Where m is the number of nodes in subRoot and n is the number of nodes in root.
+
 class Solution:
     def isSubtree(self, s: TreeNode, t: TreeNode) -> bool: # type: ignore
         if not t: return True

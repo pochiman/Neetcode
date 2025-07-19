@@ -24,6 +24,10 @@ Explanation: 2 does not exist in nums so return -1
 
 """
 
+# Solution 2: Iterative Binary Search [✔️]
+# Time Complexity: O(log n)
+# Space Complexity: O(1)
+
 class Solution:
     def search(self, nums: List[int], target: int) -> int: # type: ignore
         l, r = 0, len(nums) - 1

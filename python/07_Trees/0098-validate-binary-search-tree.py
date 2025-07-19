@@ -25,6 +25,10 @@ Explanation: The root node's value is 5 but its right child's value is 4.
 
 """
 
+# Solution 2: Depth First Search [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool: # type: ignore
 

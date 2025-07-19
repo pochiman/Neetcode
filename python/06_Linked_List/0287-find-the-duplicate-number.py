@@ -29,6 +29,10 @@ Output: 3
 
 """
 
+# Solution 7: Fast And Slow Pointers [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int: # type: ignore
         slow, fast = 0, 0

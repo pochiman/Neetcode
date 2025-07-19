@@ -27,6 +27,14 @@ Output: false
 
 """
 
+# Solution 1: Depth First Search [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+# Best Case (balanced tree): O(log(n))
+# Worst Case (degenerate tree): O(n)
+
+# Where n is the number of nodes in the tree and h is the height of the tree.
+
 class Solution:
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool: # type: ignore
         if not p and not q:

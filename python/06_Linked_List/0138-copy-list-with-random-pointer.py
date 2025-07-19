@@ -46,6 +46,10 @@ Output: [[3,null],[3,0],[3,null]]
 
 """
 
+# Solution 2: Hash Map (Two Pass) [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node': # type: ignore
         oldToCopy = { None : None }

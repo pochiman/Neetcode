@@ -29,6 +29,14 @@ Output: [8,9,9,9,0,0,0,1]
 
 """
 
+# Solution 2: Iteration [✔️]
+# Time Complexity: O(m + n)
+# Space Complexity: 
+#   - O(1) extra space.
+#   - O(max(m,n)) for the output list.
+
+# Where m is the length of l1 and n is the length of l2.
+
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode: # type: ignore
         dummy = ListNode() # type: ignore

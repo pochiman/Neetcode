@@ -28,6 +28,10 @@ Output: 3
 
 """
 
+# Solution 3: Hash Set [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int: # type: ignore
         numSet = set(nums)

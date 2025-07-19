@@ -40,6 +40,10 @@ lRUCache.get(4);    // return 4
 
 """
 
+# Solution 2: Doubly Linked List [✔️]
+# Time Complexity: O(1) for each put() and get() operation.
+# Space Complexity: O(n)
+
 class Node:
     def __init__(self, key, val):
         self.key, self.val = key, val

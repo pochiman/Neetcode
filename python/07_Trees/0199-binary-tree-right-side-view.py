@@ -30,6 +30,10 @@ Output: []
 
 """
 
+# Solution 2: Breadth First Search [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Solution:
     def rightSideView(self, root: TreeNode) -> List[int]: # type: ignore
         res = []

@@ -29,6 +29,10 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 
 """
 
+# Solution 2: Two Pointers [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
     def maxProfit(self, prices: List[int]) -> int: # type: ignore
         l, r = 0, 1

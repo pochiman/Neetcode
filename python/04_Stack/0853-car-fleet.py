@@ -63,6 +63,10 @@ Explanation:
 
 """
 
+# Solution 1: Stack [✔️]
+# Time Complexity: O(n log n)
+# Space Complexity: O(n)
+
 class Solution:
     def carFleet(self, target: int, position: List[int], speed: List[int]) -> int: # type: ignore
         pair = [[p, s] for p, s in zip(position, speed)]

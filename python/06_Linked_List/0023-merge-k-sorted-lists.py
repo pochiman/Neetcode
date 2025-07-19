@@ -34,6 +34,12 @@ Output: []
 
 """
 
+# Solution 6: Divide And Conquer (Iteration) [✔️]
+# Time Complexity: O(n log k)
+# Space Complexity: O(k)
+
+# Where k is the total number of lists and n is the total number of nodes across k lists.
+
 class Solution:
     def mergeKLists(self, lists: List[ListNode]) -> ListNode: # type: ignore
         if not lists or len(lists) == 0:

@@ -38,6 +38,10 @@ Explanation: The original array was [11,13,15,17] and it was rotated 4 times.
 
 """
 
+# Solution 2: Binary Search [✔️]
+# Time Complexity: O(log n)
+# Space Complexity: O(1)
+
 class Solution:
     def findMin(self, nums: List[int]) -> int: # type: ignore
         res = nums[0]

@@ -32,6 +32,12 @@ Explanation: The answer [[-2,4],[3,3]] would also be accepted.
 
 """
 
+# Solution 2: Min-Heap [✔️]
+# Time Complexity: O(k * log n)
+# Space Complexity: O(n)
+
+# Where n is the length of the array points.
+
 class Solution:
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]: # type: ignore
         minHeap = []

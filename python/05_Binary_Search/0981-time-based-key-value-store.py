@@ -43,6 +43,13 @@ timeMap.get("foo", 5);         // return "bar2"
 
 """
 
+# Solution 3: Binary Search (Array) [✔️]
+# Time Complexity: O(1) for set() and O(log n) for get().
+# Space Complexity: O(m * n)
+
+# Where n is the total number of values associated with a key 
+# and m is the total number of keys.
+
 class TimeMap:
 
     def __init__(self):

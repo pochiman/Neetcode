@@ -39,6 +39,10 @@ Output: 1
 
 """
 
+# Solution 3: Heap [✔️]
+# Time Complexity: O(n log n)
+# Space Complexity: O(n)
+
 class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int: # type: ignore
         stones = [-s for s in stones]

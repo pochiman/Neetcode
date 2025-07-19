@@ -34,6 +34,13 @@ Output: 23
 
 """
 
+# Solution 2: Binary Search [✔️]
+# Time Complexity: O(n * log m)
+# Space Complexity: O(1)
+
+# Where n is the length of the input array piles and m is the maximum number 
+# of bananas in a pile.
+
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int: # type: ignore
         l, r = 1, max(piles)

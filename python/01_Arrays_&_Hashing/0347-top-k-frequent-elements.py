@@ -19,6 +19,10 @@ Output: [1]
 
 """
 
+# Solution 3: Bucket Sort [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]: # type: ignore
         count = {}

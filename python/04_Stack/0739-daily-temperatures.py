@@ -26,6 +26,10 @@ Output: [1,1,0]
 
 """
 
+# Solution 2: Stack [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]: # type: ignore
         res = [0] * len(temperatures)

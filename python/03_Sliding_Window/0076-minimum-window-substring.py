@@ -32,9 +32,17 @@ Since the largest window of s only has one 'a', return empty string.
 
 """
 
+# Solution 2: Sliding Window [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(m)
+
+# Where n is the length of the string s and m is the total number of 
+# unique characters in the strings t and s.
+
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
-        if t == "": return ""
+        if t == "": 
+            return ""
 
         countT, window = {}, {}
         for c in t:

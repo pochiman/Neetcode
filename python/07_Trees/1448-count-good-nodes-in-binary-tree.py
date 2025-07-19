@@ -33,6 +33,10 @@ Explanation: Root is considered as good.
 
 """
 
+# Solution 1: Depth First Search [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Solution:
     def goodNodes(self, root: TreeNode) -> int: # type: ignore
 

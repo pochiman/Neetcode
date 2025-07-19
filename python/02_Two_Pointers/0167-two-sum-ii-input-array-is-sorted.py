@@ -40,6 +40,10 @@ We return [1, 2].
 
 """
 
+# Solution 4: Two Pointers [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]: # type: ignore
         l, r = 0, len(numbers) - 1

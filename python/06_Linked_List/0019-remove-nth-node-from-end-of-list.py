@@ -24,6 +24,10 @@ Output: [1]
 
 """
 
+# Solution 4: Two Pointers [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode: # type: ignore
         dummy = ListNode(0, head) # type: ignore

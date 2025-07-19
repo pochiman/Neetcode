@@ -33,6 +33,10 @@ Output:
 
 """
 
+# Solution 2: Backtracking [✔️]
+# Time Complexity: O(n * 2^n)
+# Space Complexity: O(n)
+
 class Solution: # type: ignore
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]: # type: ignore
         res = []
@@ -63,6 +67,7 @@ class Solution: # type: ignore
 # Solution 4: Backtracking (Optimal)
 # Time Complexity: O(n * 2^n)
 # Space Complexity: O(n)
+
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]: # type: ignore
         res = []

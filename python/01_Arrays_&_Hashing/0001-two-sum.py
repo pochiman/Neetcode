@@ -30,6 +30,10 @@ Output: [0,1]
 
 """ 
 
+# Solution 4: Hash Map (One Pass) [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]: # type: ignore
         prevMap = {}  # val -> index

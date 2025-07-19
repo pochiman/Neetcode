@@ -28,6 +28,10 @@ Output: 1
 
 """
 
+# Solution 2: Two Pointers [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
     def maxArea(self, height: List[int]) -> int: # type: ignore
         res = 0

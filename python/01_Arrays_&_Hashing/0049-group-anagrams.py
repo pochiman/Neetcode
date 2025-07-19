@@ -27,6 +27,14 @@ Output: [["a"]]
 
 """
 
+# Solution 2: Hash Table [✔️]
+# Time Complexity: O(m * n)
+# Space Complexity: 
+#   - O(m) extra space.
+#   - O(m * n) space for the output list.
+
+# Where m is the number of strings and n is the length of the longest string.
+
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]: # type: ignore
         res = defaultdict(list)  # type: ignore # mapping charCount to list of Anagrams

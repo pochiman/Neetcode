@@ -23,6 +23,12 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 
 """
 
+# Solution 4: Binary Search (Optimal) [✔️]
+# Time Complexity: O(log(min(n,m)))
+# Space Complexity: O(1)
+
+# Where n is the length of nums1 and m is the length of nums2. 
+
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float: # type: ignore
         A, B = nums1, nums2

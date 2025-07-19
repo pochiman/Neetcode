@@ -49,7 +49,15 @@ twitter.getNewsFeed(1);  // User 1's news feed should return a list with 1 tweet
 
 """
 
-class Twitter:
+# Solution 2: Heap [✔️]
+# Time Complexity: O(n log n) for each getNewsFeed() call and O(1) for remaining methods.
+# Space Complexity: O(N * m + N * M + n)
+
+# Where n is the total number of followeeIds associated with the userId, m is the maximum 
+# number of tweets by any user, N is the total number of userIds and M is the maximum 
+# number of followees for any user.
+
+class Twitter: # type: ignore
     def __init__(self):
         self.count = 0
         self.tweetMap = defaultdict(list)  # type: ignore # userId -> list of [count, tweetIds]
@@ -76,6 +84,70 @@ class Twitter:
             if index >= 0:
                 count, tweetId = self.tweetMap[followeeId][index]
                 heapq.heappush(minHeap, [count, tweetId, followeeId, index - 1]) # type: ignore
+        return res
+
+    def follow(self, followerId: int, followeeId: int) -> None:
+        self.followMap[followerId].add(followeeId)
+
+    def unfollow(self, followerId: int, followeeId: int) -> None:
+        if followeeId in self.followMap[followerId]:
+            self.followMap[followerId].remove(followeeId)
+
+
+######## ######## ######## ######## ######## ######## ########
+
+
+# Solution 3: Heap (Optimal)
+# Time Complexity: O(n) for each getNewsFeed() call and O(1) for remaining methods.
+# Space Complexity: O(N * m + N * M + n)
+
+# Where n is the total number of followeeIds associated with the userId, m is the maximum 
+# number of tweets by any user (m can be at most 10), N is the total number of userIds and 
+# M is the maximum number of followees for any user.
+
+class Twitter:
+
+    def __init__(self):
+        self.count = 0
+        self.tweetMap = defaultdict(list)  # type: ignore # userId -> list of [count, tweetIds]
+        self.followMap = defaultdict(set)  # type: ignore # userId -> set of followeeId
+
+    def postTweet(self, userId: int, tweetId: int) -> None:
+        self.tweetMap[userId].append([self.count, tweetId])
+        if len(self.tweetMap[userId]) > 10:
+            self.tweetMap[userId].pop(0)
+        self.count -= 1
+
+    def getNewsFeed(self, userId: int) -> List[int]: # type: ignore
+        res = []
+        minHeap = []
+        self.followMap[userId].add(userId)
+        if len(self.followMap[userId]) >= 10:
+            maxHeap = []
+            for followeeId in self.followMap[userId]:
+                if followeeId in self.tweetMap:
+                    index = len(self.tweetMap[followeeId]) - 1
+                    count, tweetId = self.tweetMap[followeeId][index]
+                    heapq.heappush(maxHeap, [-count, tweetId, followeeId, index - 1]) # type: ignore
+                    if len(maxHeap) > 10:
+                        heapq.heappop(maxHeap) # type: ignore
+            while maxHeap:
+                count, tweetId, followeeId, index = heapq.heappop(maxHeap) # type: ignore
+                heapq.heappush(minHeap, [-count, tweetId, followeeId, index]) # type: ignore
+        else:
+            for followeeId in self.followMap[userId]:
+                if followeeId in self.tweetMap:
+                    index = len(self.tweetMap[followeeId]) - 1
+                    count, tweetId = self.tweetMap[followeeId][index]
+                    heapq.heappush(minHeap, [count, tweetId, followeeId, index - 1]) # type: ignore
+
+        while minHeap and len(res) < 10:
+            count, tweetId, followeeId, index = heapq.heappop(minHeap) # type: ignore
+            res.append(tweetId)
+            if index >= 0:
+                count, tweetId = self.tweetMap[followeeId][index]
+                heapq.heappush(minHeap, [count, tweetId, followeeId, index - 1]) # type: ignore
+        
         return res
 
     def follow(self, followerId: int, followeeId: int) -> None:

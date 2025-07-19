@@ -27,7 +27,13 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 
 """
 
-class Solution:
+# Solution 2: Sliding Window [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(m)
+
+# Where n is the length of the string and m is the total number of unique characters in the string.
+
+class Solution: # type: ignore
     def lengthOfLongestSubstring(self, s: str) -> int:
         charSet = set()
         l = 0
@@ -38,5 +44,28 @@ class Solution:
                 charSet.remove(s[l])
                 l += 1
             charSet.add(s[r])
+            res = max(res, r - l + 1)
+        return res
+
+
+######## ######## ######## ######## ######## ######## ########
+
+
+# Solution 3: Sliding Window (Optimal)
+# Time Complexity: O(n)
+# Space Complexity: O(m)
+
+# Where n is the length of the string and m is the total number of unique characters in the string.
+
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        mp = {}
+        l = 0
+        res = 0
+        
+        for r in range(len(s)):
+            if s[r] in mp:
+                l = max(mp[s[r]] + 1, l)
+            mp[s[r]] = r
             res = max(res, r - l + 1)
         return res

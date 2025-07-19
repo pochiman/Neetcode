@@ -31,6 +31,10 @@ Output: [1]
 
 """
 
+# Solution 5: Deque [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]: # type: ignore
         output = []

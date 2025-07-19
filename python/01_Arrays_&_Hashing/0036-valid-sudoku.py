@@ -48,6 +48,10 @@ modified to 8. Since there are two 8's in the top left 3x3 sub-box, it is invali
 
 """
 
+# Solution 2: Hash Set (One Pass) [✔️]
+# Time Complexity: O(n^2)
+# Space Complexity: O(n^2)
+
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool: # type: ignore
         rows = collections.defaultdict(set) # type: ignore

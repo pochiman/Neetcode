@@ -22,6 +22,13 @@ Output: [[],[0]]
 
 """
 
+
+# Solution 1: Backtracking [✔️]
+# Time Complexity: O(n * 2^n)
+# Space Complexity: 
+#   - O(n) extra space.
+#   - O(2^n) for the output list.
+
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]: # type: ignore
         res = []

@@ -44,6 +44,10 @@ Explanation: ((10 * (6 / ((9 + 3) * -11))) + 17) + 5
 
 """
 
+# Solution 4: Stack [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int: # type: ignore
         stack = []

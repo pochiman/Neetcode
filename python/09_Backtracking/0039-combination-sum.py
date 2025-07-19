@@ -36,7 +36,13 @@ Output: []
 
 """
 
-class Solution:
+# Solution 1: Backtracking [✔️]
+# Time Complexity: O(2 t/m)
+# Space Complexity: O(t/m)
+
+# Where t is the given target and m is the minimum value in nums.
+
+class Solution: # type: ignore
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]: # type: ignore
         res = []
 
@@ -52,5 +58,35 @@ class Solution:
             cur.pop()
             dfs(i + 1, cur, total)
 
+        dfs(0, [], 0)
+        return res
+
+
+######## ######## ######## ######## ######## ######## ########
+
+
+# Solution 2: Backtracking (Optimal)
+# Time Complexity: O(2 t/m)
+# Space Complexity: O(t/m)
+
+# Where t is the given target and m is the minimum value in nums.
+
+class Solution:
+    def combinationSum(self, nums: List[int], target: int) -> List[List[int]]: # type: ignore
+        res = []
+        nums.sort()
+
+        def dfs(i, cur, total):
+            if total == target:
+                res.append(cur.copy())
+                return
+            
+            for j in range(i, len(nums)):
+                if total + nums[j] > target:
+                    return
+                cur.append(nums[j])
+                dfs(j, cur, total + nums[j])
+                cur.pop()
+        
         dfs(0, [], 0)
         return res

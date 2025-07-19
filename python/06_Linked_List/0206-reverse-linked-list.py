@@ -23,6 +23,10 @@ Output: []
 
 """
 
+# Solution 1: Recursion [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode: # type: ignore
         # recursive: T O(n), M O(n)

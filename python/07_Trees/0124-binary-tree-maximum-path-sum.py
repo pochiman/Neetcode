@@ -26,6 +26,10 @@ Explanation: The optimal path is 15 -> 20 -> 7 with a path sum of 15 + 20 + 7 = 
 
 """
 
+# Solution 2: Depth First Search (Optimal) [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Solution:
     def maxPathSum(self, root: Optional[TreeNode]) -> int: # type: ignore
         res = [root.val]

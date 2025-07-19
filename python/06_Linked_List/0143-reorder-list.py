@@ -26,6 +26,10 @@ Output: [1,5,2,4,3]
 
 """
 
+# Solution 2: Reverse And Merge [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
     def reorderList(self, head: ListNode) -> None: # type: ignore
         # find middle

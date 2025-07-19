@@ -31,6 +31,12 @@ Output: 2
 
 """
 
+# Solution 2: Iteration [✔️]
+# Time Complexity: O(h)
+# Space Complexity: O(1)
+
+# Where h is the height of the tree.
+
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode': # type: ignore
         cur = root

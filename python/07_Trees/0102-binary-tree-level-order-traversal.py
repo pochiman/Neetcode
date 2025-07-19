@@ -24,6 +24,10 @@ Output: []
 
 """
 
+# Solution 2: Breadth First Search [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]: # type: ignore
         res = []

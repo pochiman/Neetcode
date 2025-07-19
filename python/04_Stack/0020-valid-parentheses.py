@@ -36,6 +36,10 @@ Output: true
 
 """
 
+# Solution 2: Stack [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []

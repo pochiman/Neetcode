@@ -30,6 +30,7 @@ Output: 4
 #   - Average Case: O(n*log(n))
 #   - Worst Case:O(n*log(n))
 # Extra Space Complexity: O(n)
+
 class Solution: # type: ignore
     def findKthLargest(self, nums: List[int], k: int) -> int: # type: ignore
         nums.sort()
@@ -41,8 +42,10 @@ class Solution: # type: ignore
 
 # Solution 2: Min-Heap
 # Time Complexity: O(n*log(k))
-# Space Complexity: O(k) 
+# Space Complexity: O(k)
+
 # Where n is the length of the array nums.
+
 class Solution: # type: ignore
     def findKthLargest(self, nums, k):
         return heapq.nlargest(k, nums)[-1] # type: ignore
@@ -51,9 +54,10 @@ class Solution: # type: ignore
 ######## ######## ######## ######## ######## ######## ########
 
 
-# Solution 3: Quick Select
+# Solution 3: Quick Select [✔️]
 # Time Complexity: O(n) on average, O(n^2) in the worst case.
 # Space Complexity: O(n)
+
 class Solution: # type: ignore
     def findKthLargest(self, nums: List[int], k: int) -> int: # type: ignore
         k = len(nums) - k
@@ -81,7 +85,8 @@ class Solution: # type: ignore
 #   - Best Case: O(n)
 #   - Average Case: O(n)
 #   - Worst Case: O(n^2)
-# Extra Space Complexity: O(1)
+# Space Complexity: O(1)
+
 class Solution:
     def partition(self, nums: List[int], left: int, right: int) -> int: # type: ignore
         mid = (left + right) >> 1

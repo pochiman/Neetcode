@@ -21,7 +21,11 @@ Output: 4
 
 """
 
-class Solution:
+# Solution 4: Stack (One Pass) [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
+class Solution: # type: ignore
     def largestRectangleArea(self, heights: List[int]) -> int: # type: ignore
         maxArea = 0
         stack = []  # pair: (index, height)
@@ -36,4 +40,26 @@ class Solution:
 
         for i, h in stack:
             maxArea = max(maxArea, h * (len(heights) - i))
+        return maxArea
+
+
+######## ######## ######## ######## ######## ######## ########
+
+
+# Solution 5: Stack (Optimal)
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
+class Solution:
+    def largestRectangleArea(self, heights: List[int]) -> int: # type: ignore
+        n = len(heights)
+        maxArea = 0
+        stack = []
+
+        for i in range(n + 1):
+            while stack and (i == n  or heights[stack[-1]] >= heights[i]):
+                height = heights[stack.pop()]
+                width = i if not stack else i - stack[-1] - 1
+                maxArea = max(maxArea, height * width)
+            stack.append(i)
         return maxArea

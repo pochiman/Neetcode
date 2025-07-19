@@ -34,6 +34,10 @@ Explanation: There is no cycle in the linked list.
 
 """
 
+# Solution 2: Fast And Slow Pointers [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
     def hasCycle(self, head: ListNode) -> bool: # type: ignore
         slow, fast = head, head

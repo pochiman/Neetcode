@@ -25,7 +25,13 @@ Output: false
 
 """
 
-class Solution:
+# Solution 3: Binary Search [✔️]
+# Time Complexity: O(log m + log n) (which reduces to O(log(m * n)))
+# Space Complexity: O(1)
+
+# Where m is the number of rows and n is the number of columns of matrix.
+
+class Solution: # type: ignore
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool: # type: ignore
         ROWS, COLS = len(matrix), len(matrix[0])
 
@@ -48,6 +54,32 @@ class Solution:
             if target > matrix[row][m]:
                 l = m + 1
             elif target < matrix[row][m]:
+                r = m - 1
+            else:
+                return True
+        return False
+
+
+######## ######## ######## ######## ######## ######## ########
+
+
+# Solution 4: Binary Search (One Pass)
+# Time Complexity: O(log(m * n))
+# Space Complexity: O(1)
+
+# Where m is the number of rows and n is the number of columns of matrix.
+
+class Solution:
+    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool: # type: ignore
+        ROWS, COLS = len(matrix), len(matrix[0])
+
+        l, r = 0, ROWS * COLS - 1
+        while l <= r:
+            m = l + (r - l) // 2
+            row, col = m // COLS, m % COLS
+            if target > matrix[row][col]:
+                l = m + 1
+            elif target < matrix[row][col]:
                 r = m - 1
             else:
                 return True

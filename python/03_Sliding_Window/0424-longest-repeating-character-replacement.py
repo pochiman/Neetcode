@@ -27,6 +27,12 @@ There may exists other ways to achieve this answer too.
 
 """
 
+# Solution 3: Sliding Window (Optimal) [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(m)
+
+# Where n is the length of the string and m is the total number of unique characters in the string.
+
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         count = {}
@@ -41,6 +47,6 @@ class Solution:
             while (r - l + 1) - maxf > k:
                 count[s[l]] -= 1
                 l += 1
-
             res = max(res, r - l + 1)
+
         return res

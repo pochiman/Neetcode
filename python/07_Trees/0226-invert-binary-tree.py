@@ -45,6 +45,10 @@ Output: []
 
 """
 
+# Solution 2: Depth First Search [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n) for recursion stack.
+
 class Solution:
     def invertTree(self, root: TreeNode) -> TreeNode: # type: ignore
         if not root:

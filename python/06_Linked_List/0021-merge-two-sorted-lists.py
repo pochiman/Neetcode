@@ -28,7 +28,12 @@ Output: [0]
 
 """
 
-# Iterative
+# Solution 2: Iteration [✔️]
+# Time Complexity: O(n + m)
+# Space Complexity: O(1)
+
+# Where n is the length of list1 and m is the length of list2.
+
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode: # type: ignore
         dummy = ListNode() # type: ignore

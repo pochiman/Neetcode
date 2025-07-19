@@ -25,6 +25,14 @@ Output: 1
 
 """
 
+# Solution 2: Depth First Search [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(h)
+# Best Case (balanced tree): O(log(n))
+# Worst Case (degenerate tree): O(n)
+
+# Where n is the number of nodes in the tree and h is the height of the tree.
+
 class Solution:
     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int: # type: ignore
         res = 0

@@ -23,6 +23,12 @@ Output: [0,0,9,0,0]
 
 """
 
+# Solution 4: Prefix & Suffix (Optimal) [✔️]
+# Time Complexity: O(n)
+# Space Complexity: 
+#   - O(1) extra space.
+#   - O(n) space for the output array.
+
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]: # type: ignore
         res = [1] * (len(nums))

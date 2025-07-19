@@ -21,6 +21,12 @@ Output: false
 
 """
 
+# Solution 3: Hash Table (Using Array) [✔️]
+# Time Complexity: O(n + m)
+# Space Complexity: O(1) since we have at most 26 different characters.
+
+# Where n is the length of string s and m is the length of string t.
+
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):

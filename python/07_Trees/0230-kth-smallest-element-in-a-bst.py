@@ -19,6 +19,10 @@ Output: 3
 
 """
 
+# Solution 4: Iterative DFS (Optimal) [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int: # type: ignore
         n = 0

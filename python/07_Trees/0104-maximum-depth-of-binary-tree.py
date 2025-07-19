@@ -21,7 +21,14 @@ Output: 2
 
 """
 
-# Recursive DFS
+# Solution 1: Recursive DFS
+# Time Complexity: O(n)
+# Space Complexity: O(h)
+# Best Case (balanced tree): O(log(n))
+# Worst Case (degenerate tree): O(n)
+
+# Where n is the number of nodes in the tree and h is the height of the tree.
+
 class Solution: # type: ignore
     def maxDepth(self, root: TreeNode) -> int: # type: ignore
         if not root:
@@ -30,8 +37,35 @@ class Solution: # type: ignore
         return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
 
 
+######## ######## ######## ######## ######## ######## ########
 
-# BFS
+
+# Solution 2: Iterative DFS (Stack) [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
+class Solution: # type: ignore
+    def maxDepth(self, root: TreeNode) -> int: # type: ignore
+        stack = [[root, 1]]
+        res = 0
+
+        while stack:
+            node, depth = stack.pop()
+
+            if node:
+                res = max(res, depth)
+                stack.append([node.left, depth + 1])
+                stack.append([node.right, depth + 1])
+        return res
+
+
+######## ######## ######## ######## ######## ######## ########
+
+
+# Solution 3: Breadth First Search
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Solution: # type: ignore
     def maxDepth(self, root: TreeNode) -> int: # type: ignore
         if not root:
@@ -49,20 +83,3 @@ class Solution: # type: ignore
                     q.append(node.right)
             level += 1
         return level
-
-
-
-# Iterative DFS (Stack)
-class Solution: # type: ignore
-    def maxDepth(self, root: TreeNode) -> int: # type: ignore
-        stack = [[root, 1]]
-        res = 0
-
-        while stack:
-            node, depth = stack.pop()
-
-            if node:
-                res = max(res, depth)
-                stack.append([node.left, depth + 1])
-                stack.append([node.right, depth + 1])
-        return res

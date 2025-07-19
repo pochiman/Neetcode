@@ -57,6 +57,12 @@ kthLargest.add(9);   // return 8
 
 """
 
+# Solution 2: Min-Heap [✔️]
+# Time Complexity: O(m * log k)
+# Space Complexity: O(k)
+
+# Where m is the number of calls made to add().
+
 class KthLargest:
 
     def __init__(self, k: int, nums: List[int]): # type: ignore

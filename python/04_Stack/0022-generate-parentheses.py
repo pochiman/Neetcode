@@ -19,6 +19,10 @@ Output: ["()"]
 
 """
 
+# Solution 2: Backtracking [✔️]
+# Time Complexity: O(4n/√n)
+# Space Complexity: O(n)
+
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]: # type: ignore
         # only add open parenthesis if open < n

@@ -22,6 +22,10 @@ Output: 9
 
 """
 
+# Solution 4: Two Pointers [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
     def trap(self, height: List[int]) -> int: # type: ignore
 

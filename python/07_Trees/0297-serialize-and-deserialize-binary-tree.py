@@ -30,6 +30,10 @@ Output: []
 
 """
 
+# Solution 1: Depth First Search [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Codec:
     def serialize(self, root):
         res = []

@@ -34,6 +34,10 @@ Output: -1
 
 """
 
+# Solution 4: Binary Search (One Pass) [✔️]
+# Time Complexity: O(log n)
+# Space Complexity: O(1)
+
 class Solution:
     def search(self, nums: List[int], target: int) -> int: # type: ignore
         l, r = 0, len(nums) - 1

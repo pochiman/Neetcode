@@ -34,6 +34,14 @@ Explanation: The only possible triplet sums up to 0.
 
 """
 
+# Solution 3: Two Pointers [✔️]
+# Time Complexity: O(n^2)
+# Space Complexity: 
+#   - O(1) or O(n) extra space depending on the sorting algorithm.
+#   - O(m) space for the output list.
+
+# Where m is the number of triplets and n is the length of the given array.
+
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]: # type: ignore
         res = []
