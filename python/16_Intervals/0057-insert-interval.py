@@ -13,6 +13,9 @@ overlapping intervals if necessary).
 
 Return intervals after the insertion.
 
+Note that you don't need to modify intervals in-place. You can make a new array and 
+return it.
+
 
 
 Example 1:
@@ -28,8 +31,14 @@ Explanation: Because the new interval [4,8] overlaps with [3,5],[6,7],[8,10].
 
 """
 
+# Solution 3: Greedy [✔️]
+# Time Complexity: O(n)
+# Space Complexity: 
+#   - O(1) extra space.
+#   - O(n) space for the output list.
+
 class Solution:
-    def insert(self, intervals: list[list[int]], newInterval: list[int]) -> list[list[int]]:
+    def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]: # type: ignore
         res = []
 
         for i in range(len(intervals)):
