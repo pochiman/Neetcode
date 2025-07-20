@@ -37,9 +37,15 @@ is just 0.
 
 """
 
+# Solution 1: Breadth First Search [✔️]
+# Time Complexity: O(m * n)
+# Space Complexity: O(m * n)
+
+# Where m is the number of rows and n is the number of columns in the grid.
+
 class Solution:
-    def orangesRotting(self, grid: list[list[int]]) -> int:
-        q = deque()
+    def orangesRotting(self, grid: List[List[int]]) -> int: # type: ignore
+        q = deque() # type: ignore
         time, fresh = 0, 0
 
         ROWS, COLS = len(grid), len(grid[0])
