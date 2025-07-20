@@ -191,6 +191,7 @@
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
 <sub>[70 - Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)</sub> | <sub><div align='center'>[✔️](python/13_1-D_Dynamic_Programming/0070-climbing-stairs.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Math, Dynamic Programming, Memoization</sub>
+<sub>[746 - Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)</sub> | <sub><div align='center'>[✔️](python/13_1-D_Dynamic_Programming/0746-min-cost-climbing-stairs.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Array, Dynamic Programming</sub>
 
 
 

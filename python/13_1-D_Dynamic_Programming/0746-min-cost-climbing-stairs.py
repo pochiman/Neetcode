@@ -34,8 +34,12 @@ The total cost is 6.
 
 """
 
+# Solution 4. Dynamic Programming (Space Optimized) [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
-    def minCostClimbingStairs(self, cost: list[int]) -> int:
+    def minCostClimbingStairs(self, cost: List[int]) -> int: # type: ignore
         cost.append(0)
 
         for i in range(len(cost) - 3, -1, -1):
