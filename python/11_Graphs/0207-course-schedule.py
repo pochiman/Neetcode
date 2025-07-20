@@ -26,20 +26,21 @@ Example 2:
 Input: numCourses = 2, prerequisites = [[1,0],[0,1]]
 Output: false
 Explanation: There are a total of 2 courses to take. 
-To take course 1 you should have finished course 0, and to take course 0 you 
-should also have finished course 1. So it is impossible.
+To take course 1 you should have finished course 0, and to take course 0 
+you should also have finished course 1. So it is impossible.
 
 """
 
 class Solution:
-    def canFinish(self, numCourses: int, prerequisites: list[list[int]]) -> bool:
+    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool: # type: ignore
         # map each course to prereq list
-        preMap = { i : [] for i in range(numCourses)}
+        preMap = {i:[] for i in range(numCourses)}
         for crs, pre in prerequisites:
             preMap[crs].append(pre)
 
         # visitSet = all courses along the curr DFS path
         visitSet = set()
+
         def dfs(crs):
             if crs in visitSet:
                 return False
