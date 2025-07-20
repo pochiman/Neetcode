@@ -166,6 +166,7 @@
 <sub>[130 - Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)</sub> | <sub><div align='center'>[✔️](python/11_Graphs/0130-surrounded-regions.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Depth-First Search, Breadth-First Search, Union Find, 1+</sub>
 <sub>[207 - Course Schedule](https://leetcode.com/problems/course-schedule/)</sub> | <sub><div align='center'>[✔️](python/11_Graphs/0207-course-schedule.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Depth-First Search, Breadth-First Search, Graph, Topological Sort</sub>
 <sub>[210 - Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)</sub> | <sub><div align='center'>[✔️](python/11_Graphs/0210-course-schedule-ii.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Depth-First Search, Breadth-First Search, Graph, Topological Sort</sub>
+<sub>[261 - Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)</sub> | <sub><div align='center'>[✔️](python/11_Graphs/0261-graph-valid-tree.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Depth-First Search, Breadth-First Search, Graph, Topological Sort</sub>
 
 
 
