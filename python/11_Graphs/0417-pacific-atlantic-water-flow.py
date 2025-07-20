@@ -53,8 +53,14 @@ oceans.
 
 """
 
+# Solution 2: Depth First Search [✔️]
+# Time Complexity: O(m * n)
+# Space Complexity: O(m * n)
+
+# Where m is the number of rows and n is the number of columns.
+
 class Solution:
-    def pacificAtlantic(self, heights: list[list[int]]) -> list[list[int]]:
+    def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]: # type: ignore
         ROWS, COLS = len(heights), len(heights[0])
         pac, atl = set(), set()
 
