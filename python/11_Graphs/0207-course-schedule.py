@@ -31,6 +31,12 @@ you should also have finished course 1. So it is impossible.
 
 """
 
+# Solution 1: Cycle Detection (DFS) [✔️]
+# Time Complexity: O(V + E)
+# Space Complexity: O(V + E)
+
+# Where V is the number of courses and E is the number of prerequisites.
+
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool: # type: ignore
         # map each course to prereq list

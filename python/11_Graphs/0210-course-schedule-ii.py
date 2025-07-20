@@ -39,9 +39,15 @@ Output: [0]
 
 """
 
+# Solution 1: Cycle Detection (DFS) [✔️]
+# Time Complexity: O(V + E)
+# Space Complexity: O(V + E)
+
+# Where V is the number of courses and E is the number of prerequisites.
+
 class Solution:
-    def findOrder(self, numCourses: int, prerequisites: list[list[int]]) -> list[int]:
-        prereq = { c : [] for c in range(numCourses) }
+    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]: # type: ignore
+        prereq = {c:[] for c in range(numCourses)}
         for crs, pre in prerequisites:
             prereq[crs].append(pre)
 
