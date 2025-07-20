@@ -42,8 +42,14 @@ The optimal path with no stops from city 0 to 2 is marked in red and has cost 50
 
 """
 
-class Solution:
-    def findCheapestPrice(self, n: int, flights: list[list[int]], src: int, dst: int, k: int) -> int:
+# Solution 2: Bellman Ford Algorithm [✔️]
+# Time Complexity: O(n + (m * k))
+# Space Complexity: O(n)
+
+# Where n is the number of cities, m is the number of flights and k is the number of stops.
+
+class Solution: # type: ignore
+    def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int: # type: ignore
         prices = [float("inf")] * n
         prices[src] = 0
 
@@ -57,4 +63,36 @@ class Solution:
                     tmpPrices[d] = prices[s] + p
             prices = tmpPrices
 
-        return -1 if prices[dst] == float("inf") else prices[dst]
+        return -1 if prices[dst] == float("inf") else prices[dst] # type: ignore
+
+
+######## ######## ######## ######## ######## ######## ########
+
+
+# Solution 3: Shortest Path Faster Algorithm (Optimal)
+# Time Complexity: O(n * k)
+# Space Complexity: O(n + m)
+
+# Where n is the number of cities, m is the number of flights and k is the number of stops.
+
+class Solution:
+    def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int: # type: ignore
+        prices = [float("inf")] * n
+        prices[src] = 0
+        adj = [[] for _ in range(n)]
+        for u, v, cst in flights:
+            adj[u].append([v, cst])
+
+        q = deque([(0, src, 0)]) # type: ignore
+        while q:
+            cst, node, stops = q.popleft()
+            if stops > k:
+                continue
+            
+            for nei, w in adj[node]:
+                nextCost = cst + w
+                if nextCost < prices[nei]:
+                    prices[nei] = nextCost
+                    q.append((nextCost, nei, stops + 1))
+
+        return prices[dst] if prices[dst] != float("inf") else -1 # type: ignore
