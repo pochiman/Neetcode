@@ -179,6 +179,7 @@
 ---- | ---- | ---- | ----
 <sub>[743 - Network Delay Time](https://leetcode.com/problems/network-delay-time/)</sub> | <sub><div align='center'>[✔️](python/12_Advanced_Graphs/0743-network-delay-time.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Depth-First Search, Breadth-First Search, Graph, Heap (Priority Queue), 1+</sub>
 <sub>[332 - Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)</sub> | <sub><div align='center'>[✔️](python/12_Advanced_Graphs/0332-reconstruct-itinerary.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Depth-First Search, Graph, Eulerian Circuit</sub>
+<sub>[1584 - Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)</sub> | <sub><div align='center'>[✔️](python/12_Advanced_Graphs/1584-min-cost-to-connect-all-points.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Union Find, Graph, Minimum Spanning Tree</sub>
 
 
 
