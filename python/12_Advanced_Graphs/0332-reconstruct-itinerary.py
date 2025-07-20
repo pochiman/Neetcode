@@ -33,8 +33,14 @@ Explanation: Another possible reconstruction is ["JFK","SFO","ATL","JFK",
 
 """
 
-class Solution:
-    def findItinerary(self, tickets: list[list[str]]) -> list[str]:
+# Solution 1: Depth First Search [✔️]
+# Time Complexity: O(E * V)
+# Space Complexity: O(E * V)
+
+# Where E is the number of tickets (edges) and V is the number of airports (vertices).
+
+class Solution: # type: ignore
+    def findItinerary(self, tickets: List[List[str]]) -> List[str]: # type: ignore
         adj = { src : [] for src, dst in tickets }
 
         tickets.sort()
@@ -64,9 +70,10 @@ class Solution:
 ######## ######## ######## ######## ######## ######## ######## ########
 
 
-# refactor solution to pass updated test cases
+# Refactor solution to pass updated test cases.
+
 class Solution:
-    def findItinerary(self, tickets: list[list[str]]) -> list[str]:
+    def findItinerary(self, tickets: List[List[str]]) -> List[str]: # type: ignore
         adj = {src: [] for src, dst in tickets}
         res = []
 
