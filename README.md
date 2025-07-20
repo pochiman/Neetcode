@@ -169,6 +169,7 @@
 <sub>[261 - Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)</sub> | <sub><div align='center'>[✔️](python/11_Graphs/0261-graph-valid-tree.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Depth-First Search, Breadth-First Search, Graph, Topological Sort</sub>
 <sub>[323 - Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)</sub> | <sub><div align='center'>[✔️](python/11_Graphs/0323-number-of-connected-components-in-an-undirected-graph.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Depth-First Search, Breadth-First Search, Union Find, Graph</sub>
 <sub>[684 - Redundant Connection](https://leetcode.com/problems/redundant-connection/)</sub> | <sub><div align='center'>[✔️](python/11_Graphs/0684-redundant-connection.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Depth-First Search, Breadth-First Search, Union Find, Graph</sub>
+<sub>[127 - Word Ladder](https://leetcode.com/problems/word-ladder/)</sub> | <sub><div align='center'>[✔️](python/11_Graphs/0127-word-ladder.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Hash Table, String, Breadth-First Search</sub>
 
 
 
