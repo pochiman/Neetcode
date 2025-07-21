@@ -30,8 +30,12 @@ Output: 2
 
 """
 
+# Solution 4: Breadth First Search (Greedy) [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
-    def jump(self, nums: list[int]) -> int:
+    def jump(self, nums: List[int]) -> int: # type: ignore
         res = 0
         l = r = 0
 
