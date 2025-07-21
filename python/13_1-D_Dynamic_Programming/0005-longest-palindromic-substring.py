@@ -19,6 +19,12 @@ Output: "bb"
 
 """
 
+# Solution 3: Two Pointers [✔️]
+# Time Complexity: O(n^2)
+# Space Complexity: 
+#   - O(1) extra space.
+#   - O(n) space for the output string.
+
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         res = ""
@@ -41,6 +47,6 @@ class Solution:
                     res = s[l:r + 1]
                     resLen = r - l + 1
                 l -= 1
-                r += 1        
+                r += 1
 
         return res
