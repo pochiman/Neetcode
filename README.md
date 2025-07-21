@@ -215,6 +215,7 @@
 <sub>[518 - Coin Change II](https://leetcode.com/problems/coin-change-ii/)</sub> | <sub><div align='center'>[✔️](python/14_2-D_Dynamic_Programming/0518-coin-change-ii.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Dynamic Programming</sub>
 <sub>[494 - Target Sum](https://leetcode.com/problems/target-sum/)</sub> | <sub><div align='center'>[✔️](python/14_2-D_Dynamic_Programming/0494-target-sum.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Dynamic Programming, Backtracking</sub>
 <sub>[97 - Interleaving String](https://leetcode.com/problems/interleaving-string/)</sub> | <sub><div align='center'>[✔️](python/14_2-D_Dynamic_Programming/0097-interleaving-string.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>String, Dynamic Programming</sub>
+<sub>[329 - Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)</sub> | <sub><div align='center'>[✔️](python/14_2-D_Dynamic_Programming/0329-longest-increasing-path-in-a-matrix.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Array, Dynamic Programming, Depth-First Search, Breadth-First Search, 4+</sub>
 
 
 

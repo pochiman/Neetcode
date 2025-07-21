@@ -31,8 +31,14 @@ Output: 1
 
 """
 
+# Solution 2: Dynamic Programming (Top-Down) [✔️]
+# Time Complexity: O(m * n)
+# Space Complexity: O(m * n)
+
+# Where m is the number of rows and n is the number of columns in the given matrix.
+
 class Solution:
-    def longestIncreasingPath(self, matrix: list[list[int]]) -> int:
+    def longestIncreasingPath(self, matrix: List[List[int]]) -> int: # type: ignore
         ROWS, COLS = len(matrix), len(matrix[0])
         dp = {}  # (r, c) -> LIP
 
