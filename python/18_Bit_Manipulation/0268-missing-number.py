@@ -30,8 +30,12 @@ Explanation: n = 9 since there are 9 numbers, so all numbers are in the range
 
 """
 
+# Solution 4: Math [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
-    def missingNumber(self, nums: list[int]) -> int:
+    def missingNumber(self, nums: List[int]) -> int: # type: ignore
         res = len(nums)
 
         for i in range(len(nums)):
