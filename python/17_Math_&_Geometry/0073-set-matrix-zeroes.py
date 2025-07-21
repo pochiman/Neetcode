@@ -21,8 +21,14 @@ Output: [[0,0,0,0],[0,4,5,0],[0,3,1,0]]
 
 """
 
+# Solution 3: Iteration (Space Optimized) [✔️]
+# Time Complexity: O(m * n)
+# Space Complexity: O(1)
+
+# Where m is the number of rows and n is the number of columns.
+
 class Solution:
-    def setZeroes(self, matrix: list[list[int]]) -> None:
+    def setZeroes(self, matrix: List[List[int]]) -> None: # type: ignore
         # O(1)
         ROWS, COLS = len(matrix), len(matrix[0])
         rowZero = False
