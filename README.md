@@ -234,6 +234,7 @@
 <sub>[846 - Hand of Straights](https://leetcode.com/problems/hand-of-straights/)</sub> | <sub><div align='center'>[✔️](python/15_Greedy/0846-hand-of-straights.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Hash Table, Greedy, Sorting</sub>
 <sub>[1899 - Merge Triplets to Form Target Triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/)</sub> | <sub><div align='center'>[✔️](python/15_Greedy/1899-merge-triplets-to-form-target-triplet.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Greedy</sub>
 <sub>[763 - Partition Labels](https://leetcode.com/problems/partition-labels/)</sub> | <sub><div align='center'>[✔️](python/15_Greedy/0763-partition-labels.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Hash Table, Two Pointers, String, Greedy</sub>
+<sub>[678 - Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)</sub> | <sub><div align='center'>[✔️](python/15_Greedy/0678-valid-parenthesis-string.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>String, Dynamic Programming, Stack, Greedy</sub>
 
 
 

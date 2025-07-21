@@ -32,7 +32,7 @@ Output: [10]
 
 """
 
-# Solution 1: Two Pointers Greedy [✔️]
+# Solution 1: Two Pointers (Greedy) [✔️]
 # Time Complexity: O(n)
 # Space Complexity: O(m)
 
