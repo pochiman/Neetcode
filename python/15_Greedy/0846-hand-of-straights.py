@@ -24,8 +24,12 @@ Explanation: Alice's hand can not be rearranged into groups of 4.
 
 """
 
+# Solution 2: Heap [✔️]
+# Time Complexity: O(n log n)
+# Space Complexity: O(n)
+
 class Solution:
-    def isNStraightHand(self, hand: list[int], groupSize: int) -> bool:
+    def isNStraightHand(self, hand: List[int], groupSize: int) -> bool: # type: ignore
         if len(hand) % groupSize:
             return False
 
@@ -34,7 +38,7 @@ class Solution:
             count[n] = 1 + count.get(n, 0)
 
         minH = list(count.keys())
-        heapq.heapify(minH)
+        heapq.heapify(minH) # type: ignore
         while minH:
             first = minH[0]
 
@@ -45,7 +49,7 @@ class Solution:
                 if count[i] == 0:
                     if i != minH[0]:
                         return False
-                    heapq.heappop(minH)
+                    heapq.heappop(minH) # type: ignore
         return True
 
         # O(n*logn)
