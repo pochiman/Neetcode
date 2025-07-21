@@ -30,8 +30,14 @@ Output: 0
 
 """
 
+# Solution 3: Dynamic Programming (Bottom-Up) [✔️]
+# Time Complexity: O(n * t)
+# Space Complexity: O(t)
+
+# Where n is the length of the array coins and t is the given amount.
+
 class Solution:
-    def coinChange(self, coins: list[int], amount: int) -> int:
+    def coinChange(self, coins: List[int], amount: int) -> int: # type: ignore
         dp = [amount + 1] * (amount + 1)
         dp[0] = 0
 
