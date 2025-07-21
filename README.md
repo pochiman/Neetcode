@@ -210,6 +210,7 @@
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
 <sub>[62 - Unique Paths](https://leetcode.com/problems/unique-paths/)</sub> | <sub><div align='center'>[✔️](python/14_2-D_Dynamic_Programming/0062-unique-paths.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Math, Dynamic Programming, Combinatorics</sub>
+<sub>[1143 - Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)</sub> | <sub><div align='center'>[✔️](python/14_2-D_Dynamic_Programming/1143-longest-common-subsequence.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>String, Dynamic Programming</sub>
 
 
 
