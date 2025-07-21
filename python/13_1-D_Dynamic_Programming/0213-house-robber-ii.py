@@ -34,9 +34,14 @@ Output: 3
 
 """
 
+# Solution 4: Dynamic Programming (Space Optimized) [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
-    def rob(self, nums: list[int]) -> int:
-        return max(nums[0], self.helper(nums[1:]), self.helper(nums[:-1]))
+    def rob(self, nums: List[int]) -> int: # type: ignore
+        return max(nums[0], self.helper(nums[1:]), 
+                            self.helper(nums[:-1]))
 
     def helper(self, nums):
         rob1, rob2 = 0, 0
