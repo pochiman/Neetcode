@@ -256,6 +256,7 @@
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
 <sub>[48 - Rotate Image](https://leetcode.com/problems/rotate-image/)</sub> | <sub><div align='center'>[✔️](python/17_Math_&_Geometry/0048-rotate-image.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Math, Matrix</sub>
+<sub>[54 - Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)</sub> | <sub><div align='center'>[✔️](python/17_Math_&_Geometry/0054-spiral-matrix.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Matrix, Simulation</sub>
 
 
 
