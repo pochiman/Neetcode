@@ -243,6 +243,7 @@
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
 <sub>[57 - Insert Interval](https://leetcode.com/problems/insert-interval/)</sub> | <sub><div align='center'>[✔️](python/16_Intervals/0057-insert-interval.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array</sub>
+<sub>[56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)</sub> | <sub><div align='center'>[✔️](python/16_Intervals/0056-merge-intervals.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Sorting</sub>
 
 
 

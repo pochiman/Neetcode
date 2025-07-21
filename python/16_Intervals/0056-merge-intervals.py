@@ -22,8 +22,14 @@ Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 
 """
 
+# Solution 1: Sorting [✔️]
+# Time Complexity: O(n log n)
+# Space Complexity: 
+#   - O(1) or O(n) space depending on the sorting algorithm.
+#   - O(n) for the output list.
+
 class Solution:
-    def merge(self, intervals: list[list[int]]) -> list[list[int]]:
+    def merge(self, intervals: List[List[int]]) -> List[List[int]]: # type: ignore
         # O(nlogn)
         intervals.sort(key = lambda i : i[0])
         output = [intervals[0]]
