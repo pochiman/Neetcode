@@ -247,6 +247,7 @@
 <sub>[435 - Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)</sub> | <sub><div align='center'>[✔️](python/16_Intervals/0435-non-overlapping-intervals.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Dynamic Programming, Greedy, Sorting</sub>
 <sub>[252 - Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)</sub> | <sub><div align='center'>[✔️](python/16_Intervals/0252-meeting-rooms.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Sorting</sub>
 <sub>[253 - Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)</sub> | <sub><div align='center'>[✔️](python/16_Intervals/0253-meeting-rooms-ii.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Two Pointers, Greedy</sub>
+<sub>[1851 - Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/)</sub> | <sub><div align='center'>[✔️](python/16_Intervals/1851-minimum-interval-to-include-each-query.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Array, Binary Search, Line Sweep, Sorting, 1+</sub>
 
 
 

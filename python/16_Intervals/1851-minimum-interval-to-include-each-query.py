@@ -37,8 +37,14 @@ Explanation: The queries are processed as follows:
 
 """
 
+# Solution 3: Min Heap [✔️]
+# Time Complexity: O(n log n + m log m)
+# Space Complexity: O(n + m)
+
+# Where m is the length of the array queries and n is the length of the array intervals.
+
 class Solution:
-    def minInterval(self, intervals: list[list[int]], queries: list[int]) -> list[int]:
+    def minInterval(self, intervals: List[List[int]], queries: List[int]) -> List[int]: # type: ignore
         intervals.sort()
 
         minHeap = []
@@ -46,11 +52,11 @@ class Solution:
         for q in sorted(queries):
             while i < len(intervals) and intervals[i][0] <= q:
                 l, r = intervals[i]
-                heapq.heappush(minHeap, (r - l + 1, r))
+                heapq.heappush(minHeap, (r - l + 1, r)) # type: ignore
                 i += 1
 
             while minHeap and minHeap[0][1] < q:
-                heapq.heappop(minHeap)
+                heapq.heappop(minHeap) # type: ignore
             res[q] = minHeap[0][0] if minHeap else -1
 
         return [res[q] for q in queries]
