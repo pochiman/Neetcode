@@ -22,6 +22,12 @@ Output: "56088"
 
 """
 
+# Solution 2: Multiplication [✔️]
+# Time Complexity: O(m * n)
+# Space Complexity: O(m + n)
+
+# Where m is the length of the string num1 and n is the length of the string num2.
+
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
         if "0" in [num1, num2]:
