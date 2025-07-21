@@ -30,8 +30,12 @@ Total amount you can rob = 2 + 9 + 1 = 12.
 
 """
 
+# Solution 4: Dynamic Programming (Space Optimized) [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
-    def rob(self, nums: list[int]) -> int:
+    def rob(self, nums: List[int]) -> int: # type: ignore
         rob1, rob2 = 0, 0
 
         # [rob1, rob2, n, n+1, ...]
