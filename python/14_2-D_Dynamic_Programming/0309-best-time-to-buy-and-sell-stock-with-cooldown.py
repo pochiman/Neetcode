@@ -30,8 +30,12 @@ Output: 0
 
 """
 
-class Solution:
-    def maxProfit(self, prices: list[int]) -> int:
+# Solution 2: Dynamic Programming (Top-Down) [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
+class Solution: # type: ignore
+    def maxProfit(self, prices: List[int]) -> int: # type: ignore
         # State: Buying or Selling?
         # If Buy -> i + 1
         # If Sell -> i + 2
@@ -54,3 +58,25 @@ class Solution:
             return dp[(i, buying)]
 
         return dfs(0, True)
+
+
+######## ######## ######## ######## ######## ######## ########
+
+
+# Solution 4: Dynamic Programming (Space Optimized)
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int: # type: ignore
+        n = len(prices)
+        dp1_buy, dp1_sell = 0, 0  
+        dp2_buy = 0
+
+        for i in range(n - 1, -1, -1):
+            dp_buy = max(dp1_sell - prices[i], dp1_buy)
+            dp_sell = max(dp2_buy + prices[i], dp1_sell)
+            dp2_buy = dp1_buy
+            dp1_buy, dp1_sell = dp_buy, dp_sell
+
+        return dp1_buy
