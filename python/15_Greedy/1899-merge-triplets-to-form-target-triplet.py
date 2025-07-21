@@ -52,8 +52,12 @@ The target triplet [5,5,5] is now an element of triplets.
 
 """
 
-class Solution:
-    def mergeTriplets(self, triplets: list[list[int]], target: list[int]) -> bool:
+# Solution 1: Greedy [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
+class Solution: # type: ignore
+    def mergeTriplets(self, triplets: List[List[int]], target: List[int]) -> bool: # type: ignore
         good = set()
 
         for t in triplets:
@@ -64,3 +68,22 @@ class Solution:
                 if v == target[i]:
                     good.add(i)
         return len(good) == 3
+
+
+######## ######## ######## ######## ######## ######## ########
+
+
+# Solution 2: Greedy (Optimal)
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
+class Solution:
+    def mergeTriplets(self, triplets: List[List[int]], target: List[int]) -> bool: # type: ignore
+        x = y = z = False
+        for t in triplets:
+            x |= (t[0] == target[0] and t[1] <= target[1] and t[2] <= target[2])
+            y |= (t[0] <= target[0] and t[1] == target[1] and t[2] <= target[2])
+            z |= (t[0] <= target[0] and t[1] <= target[1] and t[2] == target[2])
+            if x and y and z:
+                return True
+        return False
