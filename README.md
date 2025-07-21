@@ -275,7 +275,7 @@
 <sub>[338 - Counting Bits](https://leetcode.com/problems/counting-bits/)</sub> | <sub><div align='center'>[✔️](python/18_Bit_Manipulation/0338-counting-bits.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Dynamic Programming, Bit Manipulation</sub>
 <sub>[190 - Reverse Bits](https://leetcode.com/problems/reverse-bits/)</sub> | <sub><div align='center'>[✔️](python/18_Bit_Manipulation/0190-reverse-bits.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Divide and Conquer, Bit Manipulation</sub>
 <sub>[268 - Missing Number](https://leetcode.com/problems/missing-number/)</sub> | <sub><div align='center'>[✔️](python/18_Bit_Manipulation/0268-missing-number.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Array, Hash Table, Math, Binary Search, 2+</sub>
-
+<sub>[371 - Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)</sub> | <sub><div align='center'>[✔️](python/18_Bit_Manipulation/0371-sum-of-two-integers.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Math, Bit Manipulation</sub>
 
 
 

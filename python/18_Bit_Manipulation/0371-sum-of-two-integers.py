@@ -19,19 +19,18 @@ Output: 5
 
 """
 
+# Solution 3: Bit Manipulation (Optimal) [✔️]
+# Time Complexity: O(1)
+# Space Complexity: O(1)
+
 class Solution:
     def getSum(self, a: int, b: int) -> int:
-        def add(a, b):
-            if not a or not b:
-                return a or b
-            return add(a ^ b, (a & b) << 1)
+        mask = 0xFFFFFFFF
+        max_int = 0x7FFFFFFF
 
-        if a * b < 0:  # assume a < 0, b > 0
-            if a > 0:
-                return self.getSum(b, a)
-            if add(~a, 1) == b:  # -a == b
-                return 0
-            if add(~a, 1) < b:  # -a < b
-                return add(~add(add(~a, 1), add(~b, 1)), 1)  # -add(-a, -b)
+        while b != 0:
+            carry = (a & b) << 1
+            a = (a ^ b) & mask
+            b = carry & mask
 
-        return add(a, b)  # a*b >= 0 or (-a) > b > 0
+        return a if a <= max_int else ~(a ^ mask)
