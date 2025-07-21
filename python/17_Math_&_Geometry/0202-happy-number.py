@@ -23,10 +23,10 @@ Example 1:
 Input: n = 19
 Output: true
 Explanation:
-12 + 92 = 82
-82 + 22 = 68
-62 + 82 = 100
-12 + 02 + 02 = 1
+1^2 + 9^2 = 82
+8^2 + 2^2 = 68
+6^2 + 8^2 = 100
+1^2 + 0^2 + 0^2 = 1
 
 Example 2:
 
@@ -35,7 +35,11 @@ Output: false
 
 """
 
-class Solution:
+# Solution 1: Hash Set [✔️]
+# Time Complexity: O(log n)
+# Space Complexity: O(log n)
+
+class Solution: # type: ignore
     def isHappy(self, n: int) -> bool:
         visit = set()
 
@@ -45,8 +49,39 @@ class Solution:
 
             if n == 1:
                 return True
-        
         return False
+
+    def sumOfSquares(self, n: int) -> int:
+        output = 0
+
+        while n:
+            digit = n % 10
+            digit = digit ** 2
+            output += digit
+            n = n // 10
+        return output
+
+
+######## ######## ######## ######## ######## ######## ########
+
+
+# Solution 3: Fast And Slow Pointers - II
+# Time Complexity: O(log n)
+# Space Complexity: O(1)
+
+class Solution:
+    def isHappy(self, n: int) -> bool:
+        slow, fast = n, self.sumOfSquares(n)
+        power = lam = 1
+
+        while slow != fast:
+            if power == lam:
+                slow = fast
+                power *= 2
+                lam = 0
+            fast = self.sumOfSquares(fast)
+            lam += 1
+        return True if fast == 1 else False
 
     def sumOfSquares(self, n: int) -> int:
         output = 0

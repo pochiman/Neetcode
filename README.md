@@ -258,6 +258,7 @@
 <sub>[48 - Rotate Image](https://leetcode.com/problems/rotate-image/)</sub> | <sub><div align='center'>[✔️](python/17_Math_&_Geometry/0048-rotate-image.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Math, Matrix</sub>
 <sub>[54 - Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)</sub> | <sub><div align='center'>[✔️](python/17_Math_&_Geometry/0054-spiral-matrix.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Matrix, Simulation</sub>
 <sub>[73 - Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)</sub> | <sub><div align='center'>[✔️](python/17_Math_&_Geometry/0073-set-matrix-zeroes.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Hash Table, Matrix</sub>
+<sub>[202 - Happy Number](https://leetcode.com/problems/happy-number/)</sub> | <sub><div align='center'>[✔️](python/17_Math_&_Geometry/0202-happy-number.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Hash Table, Math, Two Pointers</sub>
 
 
 
