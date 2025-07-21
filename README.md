@@ -271,7 +271,7 @@
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
 <sub>[136 - Single Number](https://leetcode.com/problems/single-number/)</sub> | <sub><div align='center'>[✔️](python/18_Bit_Manipulation/0136-single-number.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Array, Bit Manipulation</sub>
-
+<sub>[191 - Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)</sub> | <sub><div align='center'>[✔️](python/18_Bit_Manipulation/0191-number-of-1-bits.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Divide and Conquer, Bit Manipulation</sub>
 
 
 
