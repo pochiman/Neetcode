@@ -37,8 +37,12 @@ Thus, the result should be [1,0].
 
 """
 
-class Solution:
-    def plusOne(self, digits: list[int]) -> list[int]:
+# Solution 2. Iteration - I [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(1) or O(n) depending on the language.
+
+class Solution: # type: ignore
+    def plusOne(self, digits: List[int]) -> List[int]: # type: ignore
         digits = digits[::-1]
         one, i = 1, 0
 
@@ -54,3 +58,22 @@ class Solution:
                 one = 0
             i += 1
         return digits[::-1]
+
+
+######## ######## ######## ######## ######## ######## ########
+
+
+# Solution 3: Iteration - II
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
+class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]: # type: ignore
+        n = len(digits)
+        for i in range(n - 1, -1, -1):
+            if digits[i] < 9:
+                digits[i] += 1
+                return digits
+            digits[i] = 0
+        
+        return [1] + digits
