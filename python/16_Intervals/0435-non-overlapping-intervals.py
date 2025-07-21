@@ -6,6 +6,9 @@ Given an array of intervals intervals where intervals[i] = [starti, endi], retur
 the minimum number of intervals you need to remove to make the rest of the intervals 
 non-overlapping.
 
+Note that intervals which only touch at a point are non-overlapping. 
+For example, [1, 2] and [2, 3] are non-overlapping.
+
 
 
 Example 1:
@@ -31,12 +34,16 @@ non-overlapping.
 
 """
 
-class Solution:
-    def eraseOverlapIntervals(self, intervals: list[list[int]]) -> int:
-        intervals.sort()
+# Solution 5: Greedy (Sort By Start) [✔️]
+# Time Complexity: O(n log n)
+# Space Complexity: O(1) or O(n) depending on the sorting algorithm.
 
+class Solution:
+    def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int: # type: ignore
+        intervals.sort()
         res = 0
         prevEnd = intervals[0][1]
+
         for start, end in intervals[1:]:
             if start >= prevEnd:
                 prevEnd = end
