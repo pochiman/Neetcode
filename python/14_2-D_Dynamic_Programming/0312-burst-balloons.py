@@ -28,8 +28,12 @@ Output: 10
 
 """
 
-class Solution:
-    def maxCoins(self, nums: list[int]) -> int:
+# Solution 2: Dynamic Programming (Top-Down) [✔️]
+# Time Complexity: O(n^3)
+# Space Complexity: O(n^2)
+
+class Solution: # type: ignore
+    def maxCoins(self, nums: List[int]) -> int: # type: ignore
         nums = [1] + nums + [1]
         dp = {}
 
@@ -45,5 +49,28 @@ class Solution:
                 coins += dfs(l, i - 1) + dfs(i + 1, r)
                 dp[(l, r)] = max(dp[(l, r)], coins)
             return dp[(l, r)]
-        
+
         return dfs(1, len(nums) - 2)
+
+
+######## ######## ######## ######## ######## ######## ########
+
+
+# Solution 3: Dynamic Programming (Bottom-Up) (Optimal)
+# Time Complexity: O(n^3)
+# Space Complexity: O(n^2)
+
+class Solution:
+    def maxCoins(self, nums):
+        n = len(nums)
+        new_nums = [1] + nums + [1]
+
+        dp = [[0] * (n + 2) for _ in range(n + 2)]
+        for l in range(n, 0, -1):
+            for r in range(l, n + 1):
+                for i in range(l, r + 1):
+                    coins = new_nums[l - 1] * new_nums[i] * new_nums[r + 1]
+                    coins += dp[l][i - 1] + dp[i + 1][r]
+                    dp[l][r] = max(dp[l][r], coins)
+
+        return dp[1][n]
