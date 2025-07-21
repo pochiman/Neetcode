@@ -24,6 +24,10 @@ Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 
 """
 
+# Solution 4: Two Pointers (Optimal) [✔️]
+# Time Complexity: O(n^2)
+# Space Complexity: O(1)
+
 class Solution:
     def countSubstrings(self, s: str) -> int:
         res = 0
