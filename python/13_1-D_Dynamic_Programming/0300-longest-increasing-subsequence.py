@@ -26,8 +26,12 @@ Output: 1
 
 """
 
+# Solution 5: Dynamic Programming (Bottom-Up) - II [✔️]
+# Time Complexity: O(n^2)
+# Space Complexity: O(n)
+
 class Solution:
-    def lengthOfLIS(self, nums: list[int]) -> int:
+    def lengthOfLIS(self, nums: List[int]) -> int: # type: ignore
         LIS = [1] * len(nums)
 
         for i in range(len(nums) - 1, -1, -1):
@@ -35,7 +39,6 @@ class Solution:
                 if nums[i] < nums[j]:
                     LIS[i] = max(LIS[i], 1 + LIS[j])
         return max(LIS)
-
 
         # O(n^2)
         # O(nlogn)
