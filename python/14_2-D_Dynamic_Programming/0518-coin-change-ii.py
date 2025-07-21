@@ -37,8 +37,44 @@ Output: 1
 
 """
 
-class Solution:
-    def change(self, amount: int, coins: list[int]) -> int:
+# Solution 4: Dynamic Programming (Space Optimized) [✔️]
+# Time Complexity: O(n * a)
+# Space Complexity: O(a)
+
+# Where n is the number of coins and a is the given amount. 
+
+class Solution: # type: ignore
+    def change(self, amount: int, coins: List[int]) -> int: # type: ignore
+        # DYNAMIC PROGRAMMING
+        # Time: O(n*m)
+        # Memory: O(n) where n = amount
+        dp = [0] * (amount + 1)
+        dp[0] = 1
+
+        for i in range(len(coins) - 1, -1, -1):
+            nextDP = [0] * (amount + 1)
+            nextDP[0] = 1
+
+            for a in range(1, amount + 1):
+                nextDP[a] = dp[a]
+                if a - coins[i] >= 0:
+                    nextDP[a] += nextDP[a - coins[i]]
+            dp = nextDP
+        return dp[amount]
+
+
+######## ######## ######## ######## ######## ######## ######## ########
+
+
+# Solution 1: Recursion
+# Time Complexity: O(2^max(n,a/m))
+# Space Complexity: O(max(n,a/m))
+
+# Where n is the number of coins, a is the given amount 
+# and m is the minimum value among all the coins. 
+
+class Solution: # type: ignore
+    def change(self, amount: int, coins: List[int]) -> int: # type: ignore
         # MEMOIZATION
         # Time: O(n*m)
         # Memory: O(n*m)
@@ -63,8 +99,14 @@ class Solution:
 ######## ######## ######## ######## ######## ######## ######## ########
 
 
-class Solution:
-    def change(self, amount: int, coins: list[int]) -> int:
+# Solution 3: Dynamic Programming (Bottom-Up)
+# Time Complexity: O(n * a)
+# Space Complexity: O(n * a)
+
+# Where n is the number of coins and a is the given amount.
+
+class Solution: # type: ignore
+    def change(self, amount: int, coins: List[int]) -> int: # type: ignore
         # DYNAMIC PROGRAMMING
         # Time: O(n*m)
         # Memory: O(n*m)
@@ -82,21 +124,17 @@ class Solution:
 ######## ######## ######## ######## ######## ######## ######## ########
 
 
+# Solution 5: Dynamic Programming (Optimal)
+# Time Complexity: O(n * a)
+# Space Complexity: O(a)
+
+# Where n is the number of coins and a is the given amount.
+
 class Solution:
-    def change(self, amount: int, coins: list[int]) -> int:
-        # DYNAMIC PROGRAMMING
-        # Time: O(n*m)
-        # Memory: O(n) where n = amount
+    def change(self, amount: int, coins: List[int]) -> int: # type: ignore
         dp = [0] * (amount + 1)
         dp[0] = 1
-
         for i in range(len(coins) - 1, -1, -1):
-            nextDP = [0] * (amount + 1)
-            nextDP[0] = 1
-
             for a in range(1, amount + 1):
-                nextDP[a] = dp[a]
-                if a - coins[i] >= 0:
-                    nextDP[a] += nextDP[a - coins[i]]
-            dp = nextDP
+                dp[a] += dp[a - coins[i]] if coins[i] <= a else 0
         return dp[amount]
