@@ -33,7 +33,13 @@ babgbag
 
 """
 
-class Solution:
+# Solution 2: Dynamic Programming (Top-Down) [✖️]
+# Time Complexity: O(m * n)
+# Space Complexity: O(m * n)
+
+# Where m is the length of the string s and n is the length of the string t.
+
+class Solution: # type: ignore
     def numDistinct(self, s: str, t: str) -> int:
         cache = {}
 
@@ -57,19 +63,26 @@ class Solution:
 ######## ######## ######## ######## ######## ######## ######## ########
 
 
+# Solution 5: Dynamic Programming (Optimal)
+# Time Complexity: O(m * n)
+# Space Complexity: O(n)
+
+# Where m is the length of the string s and n is the length of the string t.
+
 class Solution:
     def numDistinct(self, s: str, t: str) -> int:
-        cache = {}
+        m, n = len(s), len(t)
+        dp = [0] * (n + 1)
 
-        for i in range(len(s) + 1):
-            cache[(i, len(t))] = 1
-        for j in range(len(t)):
-            cache[(len(s), j)] = 0
-
-        for i in range(len(s) - 1, -1, -1):
-            for j in range(len(t) - 1, -1, -1):
+        dp[n] = 1
+        for i in range(m - 1, -1, -1):
+            prev = 1
+            for j in range(n - 1, -1, -1):
+                res = dp[j]
                 if s[i] == t[j]:
-                    cache[(i, j)] = cache[(i + 1, j + 1)] + cache[(i + 1, j)]
-                else:
-                    cache[(i, j)] = cache[(i + 1, j)]
-        return cache[(0, 0)]
+                    res += prev
+
+                prev = dp[j]
+                dp[j] = res 
+
+        return dp[0]
