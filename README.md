@@ -217,6 +217,7 @@
 <sub>[97 - Interleaving String](https://leetcode.com/problems/interleaving-string/)</sub> | <sub><div align='center'>[✔️](python/14_2-D_Dynamic_Programming/0097-interleaving-string.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>String, Dynamic Programming</sub>
 <sub>[329 - Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)</sub> | <sub><div align='center'>[✔️](python/14_2-D_Dynamic_Programming/0329-longest-increasing-path-in-a-matrix.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Array, Dynamic Programming, Depth-First Search, Breadth-First Search, 4+</sub>
 <sub>[115 - Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)</sub> | <sub><div align='center'>[✔️](python/14_2-D_Dynamic_Programming/0115-distinct-subsequences.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>String, Dynamic Programming</sub>
+<sub>[72 - Edit Distance](https://leetcode.com/problems/edit-distance/)</sub> | <sub><div align='center'>[✔️](python/14_2-D_Dynamic_Programming/0072-edit-distance.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>String, Dynamic Programming</sub>
 
 
 

@@ -35,7 +35,13 @@ exection -> execution (insert 'u')
 
 """
 
-class Solution:
+# Solution 3: Dynamic Programming (Bottom-Up) [✔️]
+# Time Complexity: O(m * n)
+# Space Complexity: O(m * n)
+
+# Where m is the length of word1 and n is the length of word2.
+
+class Solution: # type: ignore
     def minDistance(self, word1: str, word2: str) -> int:
         cache = [[float("inf")] * (len(word2) + 1) for i in range(len(word1) + 1)]
 
@@ -51,4 +57,35 @@ class Solution:
                 else:
                     cache[i][j] = 1 + min(cache[i + 1][j], cache[i][j + 1], cache[i + 1][j + 1])
 
-        return cache[0][0]
+        return cache[0][0] # type: ignore
+
+
+######## ######## ######## ######## ######## ######## ########
+
+
+# Solution 5: Dynamic Programming (Optimal)
+# Time Complexity: O(m * n)
+# Space Complexity: O(min(m,n))
+
+# Where m is the length of word1 and n is the length of word2.
+
+class Solution:
+    def minDistance(self, word1: str, word2: str) -> int:
+        m, n = len(word1), len(word2)
+        if m < n:
+            m, n = n, m
+            word1, word2 = word2, word1
+
+        dp = [n - i for i in range(n + 1)]
+
+        for i in range(m - 1, -1, -1):
+            nextDp = dp[n]
+            dp[n] = m - i
+            for j in range(n - 1, -1, -1):
+                temp = dp[j]
+                if word1[i] == word2[j]:
+                    dp[j] = nextDp
+                else:
+                    dp[j] = 1 + min(dp[j], dp[j + 1], nextDp)
+                nextDp = temp
+        return dp[0]
