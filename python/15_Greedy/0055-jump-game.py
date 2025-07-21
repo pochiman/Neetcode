@@ -25,8 +25,12 @@ length is 0, which makes it impossible to reach the last index.
 
 """
 
+# Solution 4: Greedy [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
-    def canJump(self, nums: list[int]) -> bool:
+    def canJump(self, nums: List[int]) -> bool: # type: ignore
         goal = len(nums) - 1
 
         for i in range(len(nums) - 1, -1, -1):
