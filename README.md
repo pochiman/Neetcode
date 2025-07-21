@@ -245,6 +245,7 @@
 <sub>[57 - Insert Interval](https://leetcode.com/problems/insert-interval/)</sub> | <sub><div align='center'>[✔️](python/16_Intervals/0057-insert-interval.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array</sub>
 <sub>[56 - Merge Intervals](https://leetcode.com/problems/merge-intervals/)</sub> | <sub><div align='center'>[✔️](python/16_Intervals/0056-merge-intervals.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Sorting</sub>
 <sub>[435 - Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)</sub> | <sub><div align='center'>[✔️](python/16_Intervals/0435-non-overlapping-intervals.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Dynamic Programming, Greedy, Sorting</sub>
+<sub>[252 - Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)</sub> | <sub><div align='center'>[✔️](python/16_Intervals/0252-meeting-rooms.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Sorting</sub>
 
 
 
