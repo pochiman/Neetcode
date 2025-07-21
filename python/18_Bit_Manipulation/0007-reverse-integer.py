@@ -3,7 +3,7 @@
 7. Reverse Integer
 
 Given a signed 32-bit integer x, return x with its digits reversed. If reversing 
-x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], 
+x causes the value to go outside the signed 32-bit integer range [-2^31, 2^31 - 1], 
 then return 0.
 
 Assume the environment does not allow you to store 64-bit integers (signed or 
@@ -28,6 +28,10 @@ Output: 21
 
 """
 
+# Solution 3: Iteration [✔️]
+# Time Complexity: O(1)
+# Space Complexity: O(1)
+
 class Solution:
     def reverse(self, x: int) -> int:
         # Integer.MAX_VALUE = 2147483647 (end with 7)
@@ -38,7 +42,7 @@ class Solution:
 
         res = 0
         while x:
-            digit = int(math.fmod(x, 10))  # (python dumb) -1 %  10 = 9
+            digit = int(math.fmod(x, 10))  # (python dumb) -1 %  10 = 9  # type: ignore
             x = int(x / 10)                # (python dumb) -1 // 10 = -1
 
             if (res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10)):
