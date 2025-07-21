@@ -23,8 +23,12 @@ Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
 
 """
 
+# Solution 3: Kadane's Algorithm [✔️]
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
-    def maxProduct(self, nums: list[int]) -> int:
+    def maxProduct(self, nums: List[int]) -> int: # type: ignore
         res = max(nums)
         curMin, curMax = 1, 1
 
