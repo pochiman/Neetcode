@@ -219,6 +219,7 @@
 <sub>[115 - Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)</sub> | <sub><div align='center'>[✔️](python/14_2-D_Dynamic_Programming/0115-distinct-subsequences.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>String, Dynamic Programming</sub>
 <sub>[72 - Edit Distance](https://leetcode.com/problems/edit-distance/)</sub> | <sub><div align='center'>[✔️](python/14_2-D_Dynamic_Programming/0072-edit-distance.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>String, Dynamic Programming</sub>
 <sub>[312 - Burst Balloons](https://leetcode.com/problems/burst-balloons/)</sub> | <sub><div align='center'>[✔️](python/14_2-D_Dynamic_Programming/0312-burst-balloons.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>Array, Dynamic Programming</sub>
+<sub>[10 - Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)</sub> | <sub><div align='center'>[✔️](python/14_2-D_Dynamic_Programming/0010-regular-expression-matching.py)</div></sub> | <sub><div align='center'>Hard</div></sub> | <sub>String, Dynamic Programming, Recursion</sub>
 
 
 
