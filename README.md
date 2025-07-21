@@ -199,6 +199,7 @@
 <sub>[91 - Decode Ways](https://leetcode.com/problems/decode-ways/)</sub> | <sub><div align='center'>[✔️](python/13_1-D_Dynamic_Programming/0091-decode-ways.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>String, Dynamic Programming</sub>
 <sub>[322 - Coin Change](https://leetcode.com/problems/coin-change/)</sub> | <sub><div align='center'>[✔️](python/13_1-D_Dynamic_Programming/0322-coin-change.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Dynamic Programming, Breadth-First Search</sub>
 <sub>[152 - Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)</sub> | <sub><div align='center'>[✔️](python/13_1-D_Dynamic_Programming/0152-maximum-product-subarray.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Dynamic Programming</sub>
+<sub>[139 - Word Break](https://leetcode.com/problems/word-break/)</sub> | <sub><div align='center'>[✔️](python/13_1-D_Dynamic_Programming/0139-word-break.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Hash Table, String, Dynamic Programming, 2+</sub>
 
 
 

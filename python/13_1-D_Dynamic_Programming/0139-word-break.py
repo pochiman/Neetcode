@@ -30,8 +30,15 @@ Output: false
 
 """
 
+# Solution 5: Dynamic Programming (Bottom-Up) [✔️]
+# Time Complexity: O(n * m * t)
+# Space Complexity: O(n)
+
+# Where n is the length of the string s, m is the number of words 
+# in wordDict and t is the maximum length of any word in wordDict.
+
 class Solution:
-    def wordBreak(self, s: str, wordDict: list[str]) -> bool:
+    def wordBreak(self, s: str, wordDict: List[str]) -> bool: # type: ignore
 
         dp = [False] * (len(s) + 1)
         dp[len(s)] = True
