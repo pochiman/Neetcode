@@ -49,21 +49,57 @@ detectSquares.count([11, 10]); // return 2. You can choose:
 
 """
 
+# Solution 1: Hash Map - I [✔️]
+# Time Complexity: O(1) for add(), O(n) for count().
+# Space Complexity: O(n)
+
 class DetectSquares:
 
     def __init__(self):
-        self.ptsCount = defaultdict(int)
+        self.ptsCount = defaultdict(int) # type: ignore
         self.pts = []
 
-    def add(self, point: list[int]) -> None:
+    def add(self, point: List[int]) -> None: # type: ignore
         self.ptsCount[tuple(point)] += 1
         self.pts.append(point)
 
-    def count(self, point: list[int]) -> int:
+    def count(self, point: List[int]) -> int: # type: ignore
         res = 0
         px, py = point
         for x, y in self.pts:
             if (abs(py - y) != abs(px - x)) or x == px or y == py:
                 continue
             res += self.ptsCount[(x, py)] * self.ptsCount[(px, y)]
+        return res
+
+
+######## ######## ######## ######## ######## ######## ########
+
+
+# Solution 2: Hash Map - II (Optimal)
+# Time Complexity: O(1) for add(), O(n) for count().
+# Space Complexity: O(n)
+
+class CountSquares:
+
+    def __init__(self):
+        self.ptsCount = defaultdict(lambda: defaultdict(int)) # type: ignore
+
+    def add(self, point: List[int]) -> None: # type: ignore
+        self.ptsCount[point[0]][point[1]] += 1
+
+    def count(self, point: List[int]) -> int: # type: ignore
+        res = 0
+        x1, y1 = point
+        for y2 in self.ptsCount[x1]:
+            side = y2 - y1
+            if side == 0:
+                continue
+
+            x3, x4 = x1 + side, x1 - side
+            res += (self.ptsCount[x1][y2] * self.ptsCount[x3][y1] *
+                    self.ptsCount[x3][y2])
+
+            res += (self.ptsCount[x1][y2] * self.ptsCount[x4][y1] *
+                    self.ptsCount[x4][y2])
         return res

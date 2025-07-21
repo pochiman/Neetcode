@@ -262,6 +262,7 @@
 <sub>[66 - Plus One](https://leetcode.com/problems/plus-one/)</sub> | <sub><div align='center'>[✔️](python/17_Math_&_Geometry/0066-plus-one.py)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Array, Math</sub>
 <sub>[50 - Pow(x, n)](https://leetcode.com/problems/powx-n/)</sub> | <sub><div align='center'>[✔️](python/17_Math_&_Geometry/0050-powx-n.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Math, Recursion</sub>
 <sub>[43 - Multiply Strings](https://leetcode.com/problems/multiply-strings/)</sub> | <sub><div align='center'>[✔️](python/17_Math_&_Geometry/0043-multiply-strings.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Math, String, Simulation</sub>
+<sub>[2013 - Detect Squares](https://leetcode.com/problems/detect-squares/)</sub> | <sub><div align='center'>[✔️](python/17_Math_&_Geometry/2013-detect-squares.py)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Array, Hash Table, Design, Counting</sub>
 
 
 
