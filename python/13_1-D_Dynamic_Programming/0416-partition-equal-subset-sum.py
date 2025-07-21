@@ -22,8 +22,15 @@ Explanation: The array cannot be partitioned into equal sum subsets.
 
 """
 
+# Solution 5: Dynamic Programming (Hash Set) [✔️]
+# Time Complexity: O(n * target)
+# Space Complexity: O(target)
+
+# Where n is the length of the array nums and target is the sum of 
+# array elements divided by 2.
+
 class Solution:
-    def canPartition(self, nums: list[int]) -> bool:
+    def canPartition(self, nums: List[int]) -> bool: # type: ignore
         if sum(nums) % 2:
             return False
 
