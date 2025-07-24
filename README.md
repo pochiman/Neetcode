@@ -292,7 +292,7 @@
 <sub>[1757 - Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/)</sub> | <sub><div align='center'>[✔️](sql/01_Select/01_1757_Recyclable_and_Low_Fat_Products.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[584 - Find Customer Referee](https://leetcode.com/problems/find-customer-referee/)</sub> | <sub><div align='center'>[✔️](sql/01_Select/02_0584_Find_Customer_Referee.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[595 - Big Countries](https://leetcode.com/problems/big-countries/)</sub> | <sub><div align='center'>[✔️](sql/01_Select/03_0595_Big_Countries.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
-
+<sub>[1148 - Article Views I](https://leetcode.com/problems/article-views-i/)</sub> | <sub><div align='center'>[✔️](sql/01_Select/04_1148_Article_Views_I.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 
 
 
