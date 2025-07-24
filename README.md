@@ -310,6 +310,7 @@
 <sub>[1661 - Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/10_1661_Average_Time_of_Process_per_Machine.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[577 - Employee Bonus](https://leetcode.com/problems/employee-bonus/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/11_0577_Employee_Bonus.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[1280 - Students and Examinations](https://leetcode.com/problems/students-and-examinations/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/12_1280_Students_and_Examinations.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
+<sub>[570 - Managers with at Least 5 Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/13_0570_Managers_with_at_Least_5_Direct_Reports.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
 
 
 
