@@ -290,4 +290,4 @@
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
 <sub>[1757 - Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/)</sub> | <sub><div align='center'>[✔️](sql/01_Select/01_1757_Recyclable_and_Low_Fat_Products.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
-
+<sub>[584 - Find Customer Referee](https://leetcode.com/problems/find-customer-referee/)</sub> | <sub><div align='center'>[✔️](sql/01_Select/02_0584_Find_Customer_Referee.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
