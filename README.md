@@ -307,6 +307,7 @@
 <sub>[1068 - Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/07_1068_Product_Sales_Analysis_I.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[1581 - Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/08_1581_Customer Who_Visited_but_Did_Not_Make_Any_Transactions.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[197 - Rising Temperature](https://leetcode.com/problems/rising-temperature/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/09_0197_Rising_Temperature.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
+<sub>[1661 - Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/10_1661_Average_Time_of_Process_per_Machine.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 
 
 
