@@ -304,7 +304,7 @@
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
 <sub>[1378 - Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/06_1378_Replace_Employee_ID_With_The_Unique_Identifier.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
-
+<sub>[1068 - Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/07_1068_Product_Sales_Analysis_I.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 
 
 
