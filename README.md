@@ -321,7 +321,7 @@
 <sub>[620 - Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)</sub> | <sub><div align='center'>[✔️](sql/03_Basic_Aggregate_Functions/15_0620_Not_Boring_Movies.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[1251 - Average Selling Price](https://leetcode.com/problems/average-selling-price/)</sub> | <sub><div align='center'>[✔️](sql/03_Basic_Aggregate_Functions/16_1251_Average_Selling_Price.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[1075 - Project Employees I](https://leetcode.com/problems/project-employees-i/)</sub> | <sub><div align='center'>[✔️](sql/03_Basic_Aggregate_Functions/17_1075_Project_Employees_I.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
-
+<sub>[1633 - Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/)</sub> | <sub><div align='center'>[✔️](sql/03_Basic_Aggregate_Functions/18_1633_Percentage_of_Users_Attended_a_Contest.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 
 
 
