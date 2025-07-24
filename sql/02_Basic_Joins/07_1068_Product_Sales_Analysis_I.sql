@@ -3,5 +3,5 @@
 """
 
 SELECT product_name, year, price 
-FROM sales 
-JOIN product ON sales.product_id = product.product_id
+FROM Sales 
+JOIN Product ON Sales.product_id = Product.product_id

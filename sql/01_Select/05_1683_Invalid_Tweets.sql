@@ -3,5 +3,5 @@
 """
 
 SELECT tweet_id 
-FROM tweets 
+FROM Tweets 
 WHERE LENGTH(content) > 15

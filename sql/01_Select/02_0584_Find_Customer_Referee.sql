@@ -2,9 +2,9 @@
 1757. Recyclable and Low Fat Products 
 """
 
--- Solution 1: 
+-- Solution 1: [✔️]
 SELECT name 
-FROM customer 
+FROM Customer 
 WHERE referee_id IS NULL OR referee_id != 2
 
 /*  the referee_id IS NULL OR referee_id != 2 solution 
@@ -13,11 +13,11 @@ WHERE referee_id IS NULL OR referee_id != 2
 
 -- Solution 2:
 SELECT name 
-FROM customer
+FROM Customer
 WHERE COALESCE(referee_id, 0) != 2
 
 
 -- Solution 3:
 SELECT name 
-FROM customer
+FROM Customer
 WHERE IFNULL(referee_id, 0) != 2
