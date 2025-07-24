@@ -311,6 +311,7 @@
 <sub>[577 - Employee Bonus](https://leetcode.com/problems/employee-bonus/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/11_0577_Employee_Bonus.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[1280 - Students and Examinations](https://leetcode.com/problems/students-and-examinations/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/12_1280_Students_and_Examinations.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[570 - Managers with at Least 5 Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/13_0570_Managers_with_at_Least_5_Direct_Reports.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
+<sub>[1934. Confirmation Rate](https://leetcode.com/problems/confirmation-rate/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/14_1934_Confirmation_Rate.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
 
 
 
