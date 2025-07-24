@@ -305,6 +305,28 @@
 ---- | ---- | ---- | ----
 <sub>[1378 - Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/06_1378_Replace_Employee_ID_With_The_Unique_Identifier.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[1068 - Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/07_1068_Product_Sales_Analysis_I.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
+<sub>[1581 - Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/08_1581_Customer Who_Visited_but_Did_Not_Make_Any_Transactions.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
+
+
+
+#### 03 Basic Aggregate Functions
+
+
+
+#### 04 Sorting and Grouping
+
+
+
+#### 05 Advanced Select and Joins
+
+
+
+#### 06 Subqueries
+
+
+
+#### 07 Advanced String Functions / Regex / Clause
+
 
 
 
