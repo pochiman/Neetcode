@@ -315,9 +315,15 @@
 
 
 
-
-
 #### 03 Basic Aggregate Functions
+
+<sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
+---- | ---- | ---- | ----
+<sub>[620 - Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)</sub> | <sub><div align='center'>[✔️](sql/03_Basic_Aggregate_Functions/15_0620_Not_Boring_Movies.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
+
+
+
+
 
 
 
