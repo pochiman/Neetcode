@@ -304,7 +304,7 @@
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
 <sub>[1378 - Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/06_1378_Replace_Employee_ID_With_The_Unique_Identifier.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
-<sub>[1581 - Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/08_1581_Customer Who_Visited_but_Did_Not_Make_Any_Transactions.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
+<sub>[1581 - Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/08_1581_Customer_Who_Visited_but_Did_Not_Make_Any_Transactions.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[197 - Rising Temperature](https://leetcode.com/problems/rising-temperature/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/09_0197_Rising_Temperature.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[1661 - Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/10_1661_Average_Time_of_Process_per_Machine.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[577 - Employee Bonus](https://leetcode.com/problems/employee-bonus/)</sub> | <sub><div align='center'>[✔️](sql/02_Basic_Joins/11_0577_Employee_Bonus.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
@@ -319,7 +319,7 @@
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
 <sub>[620 - Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)</sub> | <sub><div align='center'>[✔️](sql/03_Basic_Aggregate_Functions/15_0620_Not_Boring_Movies.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
-
+<sub>[1251 - Average Selling Price](https://leetcode.com/problems/average-selling-price/)</sub> | <sub><div align='center'>[✔️](sql/03_Basic_Aggregate_Functions/16_1251_Average_Selling_Price.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 
 
 
