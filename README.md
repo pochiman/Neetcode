@@ -335,7 +335,7 @@
 <sub>[2356 - Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/)</sub> | <sub><div align='center'>[✔️](sql/04_Sorting_and_Grouping/23_2356_Number_of_Unique_Subjects_Taught_by_Each_Teacher.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[1141 - User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/)</sub> | <sub><div align='center'>[✔️](sql/04_Sorting_and_Grouping/24_1141_User_Activity_for_the_Past_30_Days_I.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[1070 - Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii/)</sub> | <sub><div align='center'>[✔️](sql/04_Sorting_and_Grouping/25_1070_Product_Sales_Analysis_III.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
-
+<sub>[596 - Classes With at Least 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/)</sub> | <sub><div align='center'>[✔️](sql/04_Sorting_and_Grouping/26_0596_Classes_With_at_Least_5_Students.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 
 
 
