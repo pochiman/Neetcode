@@ -342,10 +342,13 @@
 
 
 
-
 #### 05 Advanced Select and Joins
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
+<sub>[1731 - The Number of Employees Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/)</sub> | <sub><div align='center'>[✔️](sql/05_Advanced_Select_and_Joins/30_1731_The_Number_of_Employees_Which_Report_to_Each_Employee.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
+
+
+
 
 
 
