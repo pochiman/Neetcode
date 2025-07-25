@@ -349,6 +349,9 @@
 <sub>[1789 - Primary Department for Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/)</sub> | <sub><div align='center'>[✔️](sql/05_Advanced_Select_and_Joins/31_1789_Primary_Department_for_Each_Employee.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[610 - Triangle Judgement](https://leetcode.com/problems/triangle-judgement/)</sub> | <sub><div align='center'>[✔️](sql/05_Advanced_Select_and_Joins/32_0610_Triangle_Judgement.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[180 - Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/)</sub> | <sub><div align='center'>[✔️](sql/05_Advanced_Select_and_Joins/33_0180_Consecutive_Numbers.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
+<sub>[1164 - Product Price at a Given Date](https://leetcode.com/problems/product-price-at-a-given-date/)</sub> | <sub><div align='center'>[✔️](sql/05_Advanced_Select_and_Joins/34_1164_Product_Price_at_a_Given_Date.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
+
+
 
 
 
