@@ -329,12 +329,8 @@
 
 
 
-
-
-
-
-
 #### 04 Sorting and Grouping
+<sub>[2356 - Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/)</sub> | <sub><div align='center'>[✔️](sql/04_Sorting_and_Grouping/23_2356_Number_of_Unique_Subjects_Taught_by_Each_Teacher.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 
 
 
