@@ -338,7 +338,7 @@
 <sub>[596 - Classes With at Least 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/)</sub> | <sub><div align='center'>[✔️](sql/04_Sorting_and_Grouping/26_0596_Classes_With_at_Least_5_Students.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[1729 - Find Followers Count](https://leetcode.com/problems/find-followers-count/)</sub> | <sub><div align='center'>[✔️](sql/04_Sorting_and_Grouping/27_1729_Find_Followers_Count.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[619 - Biggest Single Number](https://leetcode.com/problems/biggest-single-number/)</sub> | <sub><div align='center'>[✔️](sql/04_Sorting_and_Grouping/28_0619_Biggest_Single_Number.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
-
+<sub>[1045 - Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/)</sub> | <sub><div align='center'>[✔️](sql/04_Sorting_and_Grouping/29_1045_Customers_Who_Bought_All_Products.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
 
 
 
