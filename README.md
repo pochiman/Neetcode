@@ -330,20 +330,33 @@
 
 
 #### 04 Sorting and Grouping
+<sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
+---- | ---- | ---- | ----
 <sub>[2356 - Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/)</sub> | <sub><div align='center'>[✔️](sql/04_Sorting_and_Grouping/23_2356_Number_of_Unique_Subjects_Taught_by_Each_Teacher.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
+<sub>[1141 - User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/)</sub> | <sub><div align='center'>[✔️](sql/04_Sorting_and_Grouping/24_1141_User_Activity_for_the_Past_30_Days_I.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
+
+
+
+
+
 
 
 
 #### 05 Advanced Select and Joins
+<sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
+---- | ---- | ---- | ----
 
 
 
 #### 06 Subqueries
+<sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
+---- | ---- | ---- | ----
 
 
 
 #### 07 Advanced String Functions / Regex / Clause
-
+<sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
+---- | ---- | ---- | ----
 
 
 
