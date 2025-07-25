@@ -337,7 +337,7 @@
 <sub>[1070 - Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii/)</sub> | <sub><div align='center'>[✔️](sql/04_Sorting_and_Grouping/25_1070_Product_Sales_Analysis_III.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
 <sub>[596 - Classes With at Least 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/)</sub> | <sub><div align='center'>[✔️](sql/04_Sorting_and_Grouping/26_0596_Classes_With_at_Least_5_Students.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[1729 - Find Followers Count](https://leetcode.com/problems/find-followers-count/)</sub> | <sub><div align='center'>[✔️](sql/04_Sorting_and_Grouping/27_1729_Find_Followers_Count.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
-
+<sub>[619 - Biggest Single Number](https://leetcode.com/problems/biggest-single-number/)</sub> | <sub><div align='center'>[✔️](sql/04_Sorting_and_Grouping/28_0619_Biggest_Single_Number.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 
 
 
