@@ -323,7 +323,7 @@
 <sub>[1075 - Project Employees I](https://leetcode.com/problems/project-employees-i/)</sub> | <sub><div align='center'>[✔️](sql/03_Basic_Aggregate_Functions/17_1075_Project_Employees_I.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[1633 - Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/)</sub> | <sub><div align='center'>[✔️](sql/03_Basic_Aggregate_Functions/18_1633_Percentage_of_Users_Attended_a_Contest.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[1211 - Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage/)</sub> | <sub><div align='center'>[✔️](sql/03_Basic_Aggregate_Functions/19_1211_Queries_Quality_and_Percentage.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
-
+<sub>[1193 - Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/)</sub> | <sub><div align='center'>[✔️](sql/03_Basic_Aggregate_Functions/20_1193_Monthly_Transactions_I.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
 
 
 
