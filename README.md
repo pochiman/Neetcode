@@ -347,7 +347,7 @@
 ---- | ---- | ---- | ----
 <sub>[1731 - The Number of Employees Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/)</sub> | <sub><div align='center'>[✔️](sql/05_Advanced_Select_and_Joins/30_1731_The_Number_of_Employees_Which_Report_to_Each_Employee.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[1789 - Primary Department for Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/)</sub> | <sub><div align='center'>[✔️](sql/05_Advanced_Select_and_Joins/31_1789_Primary_Department_for_Each_Employee.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
-
+<sub>[610 - Triangle Judgement](https://leetcode.com/problems/triangle-judgement/)</sub> | <sub><div align='center'>[✔️](sql/05_Advanced_Select_and_Joins/32_0610_Triangle_Judgement.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 
 
 
