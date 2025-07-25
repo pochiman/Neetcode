@@ -351,9 +351,7 @@
 <sub>[180 - Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/)</sub> | <sub><div align='center'>[✔️](sql/05_Advanced_Select_and_Joins/33_0180_Consecutive_Numbers.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
 <sub>[1164 - Product Price at a Given Date](https://leetcode.com/problems/product-price-at-a-given-date/)</sub> | <sub><div align='center'>[✔️](sql/05_Advanced_Select_and_Joins/34_1164_Product_Price_at_a_Given_Date.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
 <sub>[1204 - Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/)</sub> | <sub><div align='center'>[✔️](sql/05_Advanced_Select_and_Joins/35_1204_Last_Person_to_Fit_in_the_Bus.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
-
-
-
+<sub>[1907 - Count Salary Categories](https://leetcode.com/problems/count-salary-categories/)</sub> | <sub><div align='center'>[✔️](sql/05_Advanced_Select_and_Joins/36_1907_Count_Salary_Categories.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
 
 
 
