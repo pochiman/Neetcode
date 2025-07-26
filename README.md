@@ -372,7 +372,7 @@
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
 <sub>[1667 - Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/)</sub> | <sub><div align='center'>[✔️](sql/07_Advanced_String_Functions_Regex_Clause/44_1667_Fix_Names_in_a_Table.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
-
+<sub>[1527 - Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/)</sub> | <sub><div align='center'>[✔️](sql/07_Advanced_String_Functions_Regex_Clause/45_1527_Patients_With_a_Condition.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 
 
 
