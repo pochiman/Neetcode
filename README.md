@@ -377,24 +377,4 @@
 <sub>[176 - Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)</sub> | <sub><div align='center'>[✔️](sql/07_Advanced_String_Functions_Regex_Clause/47_0176_Second_Highest_Salary.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
 <sub>[1484 - Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/)</sub> | <sub><div align='center'>[✔️](sql/07_Advanced_String_Functions_Regex_Clause/48_1484_Group_Sold_Products_By_The_Date.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[1327 - List the Products Ordered in a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period/)</sub> | <sub><div align='center'>[✔️](sql/07_Advanced_String_Functions_Regex_Clause/49_1327_List the_Products_Ordered_in_a_Period.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<sub>[1517 - Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/)</sub> | <sub><div align='center'>[✔️](sql/07_Advanced_String_Functions_Regex_Clause/50_1517_Find_Users_With_Valid_E-Mails.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
