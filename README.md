@@ -374,8 +374,8 @@
 <sub>[1667 - Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/)</sub> | <sub><div align='center'>[✔️](sql/07_Advanced_String_Functions_Regex_Clause/44_1667_Fix_Names_in_a_Table.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[1527 - Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/)</sub> | <sub><div align='center'>[✔️](sql/07_Advanced_String_Functions_Regex_Clause/45_1527_Patients_With_a_Condition.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[196 - Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)</sub> | <sub><div align='center'>[✔️](sql/07_Advanced_String_Functions_Regex_Clause/46_0196_Delete_Duplicate_Emails.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
-
-
+<sub>[176 - Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)</sub> | <sub><div align='center'>[✔️](sql/07_Advanced_String_Functions_Regex_Clause/47_0176_Second_Highest_Salary.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
+<sub>[1484 - Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/)</sub> | <sub><div align='center'>[✔️](sql/07_Advanced_String_Functions_Regex_Clause/48_1484_Group_Sold_Products_By_The_Date.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 
 
 
