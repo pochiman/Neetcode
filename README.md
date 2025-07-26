@@ -362,6 +362,8 @@
 <sub>[626 - Exchange Seats](https://leetcode.com/problems/exchange-seats/)</sub> | <sub><div align='center'>[✔️](sql/06_Subqueries/38_0626_Exchange_Seats.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
 <sub>[1341 - Movie Rating](https://leetcode.com/problems/movie-rating/)</sub> | <sub><div align='center'>[✔️](sql/06_Subqueries/39_1341_Movie_Rating.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
 <sub>[1321 - Restaurant Growth](https://leetcode.com/problems/restaurant-growth/)</sub> | <sub><div align='center'>[✔️](sql/06_Subqueries/40_1321_Restaurant_Growth.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
+<sub>[602 - Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/)</sub> | <sub><div align='center'>[✔️](sql/06_Subqueries/41_0602_Friend_Requests_II_Who_Has_the_Most_Friends.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
+
 
 
 
