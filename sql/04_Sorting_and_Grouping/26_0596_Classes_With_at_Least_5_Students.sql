@@ -3,10 +3,12 @@
 """
 
 -- Solution 1:
-SELECT class FROM (
+SELECT class 
+FROM (
     SELECT class, COUNT(DISTINCT student) AS c 
     FROM courses 
-    GROUP BY class) AS temp
+    GROUP BY class
+    ) AS temp
 WHERE c >= 5
 
 
