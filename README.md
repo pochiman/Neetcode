@@ -361,7 +361,7 @@
 <sub>[1978 - Employees Whose Manager Left the Company](https://leetcode.com/problems/employees-whose-manager-left-the-company/)</sub> | <sub><div align='center'>[✔️](sql/06_Subqueries/37_1978_Employees_Whose_Manager_Left_the_Company.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 <sub>[626 - Exchange Seats](https://leetcode.com/problems/exchange-seats/)</sub> | <sub><div align='center'>[✔️](sql/06_Subqueries/38_0626_Exchange_Seats.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
 <sub>[1341 - Movie Rating](https://leetcode.com/problems/movie-rating/)</sub> | <sub><div align='center'>[✔️](sql/06_Subqueries/39_1341_Movie_Rating.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
-
+<sub>[1321 - Restaurant Growth](https://leetcode.com/problems/restaurant-growth/)</sub> | <sub><div align='center'>[✔️](sql/06_Subqueries/40_1321_Restaurant_Growth.sql)</div></sub> | <sub><div align='center'>Medium</div></sub> | <sub>Database</sub>
 
 
 
