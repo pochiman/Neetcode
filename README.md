@@ -368,11 +368,10 @@
 
 
 
-
 #### 07 Advanced String Functions / Regex / Clause
 <sub>Problem</sub> | <sub>Solution</sub> | <sub>Difficulty</sub> | <sub>Tags</sub>
 ---- | ---- | ---- | ----
-
+<sub>[1667 - Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/)</sub> | <sub><div align='center'>[✔️](sql/07_Advanced_String_Functions_Regex_Clause/44_1667_Fix_Names_in_a_Table.sql)</div></sub> | <sub><div align='center'>Easy</div></sub> | <sub>Database</sub>
 
 
 
