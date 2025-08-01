@@ -10,7 +10,7 @@ SELECT
 FROM (
     SELECT DISTINCT visited_on 
     FROM Customer
-    ) a
+    ) a 
 JOIN Customer b 
 ON DATEDIFF(a.visited_on, b.visited_on) 
 BETWEEN 0 AND 6 

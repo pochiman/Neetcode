@@ -2,8 +2,8 @@
 1164. Product Price at a Given Date
 """
 
-SELECT DISTINCT Products.product_id, IFNULL(latest_prices.new_price, 10) AS price
-FROM Products
+SELECT DISTINCT Products.product_id, IFNULL(latest_prices.new_price, 10) AS price 
+FROM Products 
 LEFT JOIN (
 
     -- latest prices
@@ -17,4 +17,4 @@ LEFT JOIN (
         GROUP BY product_id
         )) latest_prices 
 
-        ON Products.product_id = latest_prices.product_id
+ON Products.product_id = latest_prices.product_id

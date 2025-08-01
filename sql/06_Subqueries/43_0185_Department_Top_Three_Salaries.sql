@@ -8,7 +8,10 @@ SELECT
     e.Salary 
 FROM (
     SELECT DepartmentId, Name, Salary, DENSE_RANK() 
-    OVER (PARTITION BY DepartmentId ORDER BY Salary DESC) AS r 
+        OVER (
+        PARTITION BY DepartmentId 
+        ORDER BY Salary DESC
+        ) AS r 
     FROM Employee
     ) e 
 JOIN Department ON e.DepartmentId = Department.Id 

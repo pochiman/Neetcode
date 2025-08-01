@@ -8,7 +8,7 @@ FROM (
     SELECT class, COUNT(DISTINCT student) AS c 
     FROM courses 
     GROUP BY class
-    ) AS temp
+    ) AS temp 
 WHERE c >= 5
 
 

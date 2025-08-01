@@ -29,6 +29,6 @@ FROM (
     USING (movie_id) 
     WHERE DATE_FORMAT(created_at, '%Y-%m') = '2020-02' 
     GROUP BY 1, 2 
-    ORDER BY 3 DESC, 2 ASC
+    ORDER BY 3 DESC, 2 ASC 
     LIMIT 1
     ) movies
