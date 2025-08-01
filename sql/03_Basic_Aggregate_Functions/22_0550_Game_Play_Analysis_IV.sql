@@ -8,7 +8,8 @@ FROM (
     FROM Activity 
     GROUP BY player_id
     ) a 
-    LEFT JOIN Activity b ON a.player_id = b.player_id AND DATEDIFF(b.event_date, a.event_date) = 1
+LEFT JOIN Activity b 
+    ON a.player_id = b.player_id AND DATEDIFF(b.event_date, a.event_date) = 1
 
 /*  The only difference here is changing the left join date condition from 
     a.event_date+1 = b.event_date to DATEDIFF(b.event_date, a.event_date) = 1. 
